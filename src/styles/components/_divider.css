@@ -1,0 +1,15 @@
+/**
+ * Sidebar Divider Styles
+ *
+ * Separators use gradient effects and must be excluded
+ * from transparency rules
+ */
+
+[data-sidebar="separator"] {
+    background: transparent !important;
+}
+
+[data-sidebar="separator"] * {
+    background-color: unset !important;
+    box-shadow: unset !important;
+}

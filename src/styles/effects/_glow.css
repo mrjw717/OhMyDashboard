@@ -1,0 +1,11 @@
+/**
+ * Glow Effect System — DOCUMENTATION ONLY
+ *
+ * IMPORTANT: The authoritative definitions for these classes live
+ * inline in src/app/globals.css.
+ *
+ * .glow-enabled       - Static subtle glow with box-shadow
+ * .glow-enabled:hover - Enhanced glow on hover
+ *
+ * @see src/app/globals.css (INLINE EFFECT STYLES section)
+ */

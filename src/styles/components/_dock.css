@@ -1,0 +1,181 @@
+.dock-outer {
+    position: fixed;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    z-index: var(--z-overlay, 9999);
+}
+
+.dock-outer > * {
+    pointer-events: auto;
+}
+
+.dock-panel {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 24px;
+    padding: 0.25rem 0.75rem 0.4rem;
+    border-radius: var(--radius-xl);
+    isolation: isolate;
+    background-color: hsl(var(--background) / 0.45);
+    border: 1px solid color-mix(in srgb, hsl(var(--primary)) 40%, hsl(var(--border)) 60%);
+    box-shadow:
+        0 12px 28px hsl(var(--background) / 0.45),
+        inset 0 1px 0 hsl(var(--foreground) / 0.12),
+        inset 0 -1px 0 hsl(var(--background) / 0.3);
+    backdrop-filter: blur(22px) saturate(160%);
+    --dock-flare-soft: hsl(var(--primary) / 0.18);
+    --dock-flare-strong: hsl(var(--primary) / 0.4);
+    --dock-flare-glow: hsl(var(--primary) / 0.15);
+    --dock-icon-size: clamp(1.15rem, calc(1rem + 0.25vw), var(--console-icon-size, 1.35rem));
+    --dock-icon-scale: 1.18;
+    --dock-icon-shadow: hsl(var(--background) / 0.7);
+    --dock-icon-color: hsl(var(--text-secondary));
+    --dock-icon-color-active: hsl(var(--text-primary));
+}
+
+/* Glow constrained to item edges; panel halo removed per spec */
+
+.dock-item {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius-lg);
+    background-color: color-mix(in srgb, hsl(var(--bg-elevated)) 75%, hsl(var(--bg-tertiary)) 25%);
+    color: hsl(var(--text-muted));
+    border: 1px solid hsl(var(--fx-tech-border) / 0.45);
+    transition: border-color 180ms ease, background-color 180ms ease, color 180ms ease;
+    isolation: isolate;
+    overflow: hidden;
+}
+
+.dock-item::before,
+.dock-item::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 220ms ease;
+}
+
+.dock-item::before {
+    z-index: 0;
+    background-image:
+        radial-gradient(circle at 20% 25%, var(--dock-flare-soft) 0%, transparent 55%),
+        radial-gradient(circle at 80% 70%, var(--dock-flare-strong) 0%, transparent 60%),
+        linear-gradient(130deg,
+            hsl(var(--primary) / 0.04) 0%,
+            hsl(var(--primary) / 0.25) 50%,
+            hsl(var(--primary) / 0.08) 100%);
+    background-size: 260% 260%, 240% 240%, 200% 200%;
+    background-position: 0% 0%, 40% 40%, 0% 0%;
+    mix-blend-mode: screen;
+    filter: saturate(130%) brightness(1.04);
+    animation: dock-gradient-pan 2800ms ease-in-out infinite;
+    will-change: background-position, filter;
+}
+
+.dock-item::after {
+    z-index: 1;
+    background-image: radial-gradient(circle at center,
+        transparent 0%,
+        transparent 60%,
+        color-mix(in srgb, hsl(var(--primary)) 18%, transparent) 78%,
+        color-mix(in srgb, hsl(var(--primary)) 36%, transparent) 88%,
+        color-mix(in srgb, hsl(var(--primary)) 52%, transparent) 96%,
+        color-mix(in srgb, hsl(var(--primary)) 68%, transparent) 100%);
+    filter: blur(0.8px);
+}
+
+.dock-item:hover {
+    border-color: hsl(var(--fx-tech-border) / 0.7);
+    background-color: color-mix(in srgb, hsl(var(--bg-elevated)) 82%, hsl(var(--background)) 18%);
+    color: hsl(var(--text-secondary));
+}
+
+.dock-item:focus-visible {
+    border-color: hsl(var(--fx-tech-border) / 0.75);
+    background-color: color-mix(in srgb, hsl(var(--bg-elevated)) 82%, hsl(var(--background)) 18%);
+    color: hsl(var(--text-secondary));
+}
+
+.dock-item:hover::before,
+.dock-item:focus-visible::before {
+    opacity: 1;
+}
+
+.dock-item:hover::after,
+.dock-item:focus-visible::after {
+    opacity: 1;
+}
+
+.dock-icon {
+    color: var(--dock-icon-color, hsl(var(--sidebar-foreground)));
+    font-size: var(--dock-icon-size, 1.2rem);
+    position: relative;
+    z-index: 2;
+    transition: transform 220ms ease, filter 220ms ease, color 150ms ease;
+    transform: scale(1);
+    text-shadow:
+        0 0.5px 1px hsl(var(--background) / 0.65),
+        0 0 4px hsl(var(--background) / 0.45);
+}
+
+.dock-item:hover .dock-icon,
+.dock-item:focus-visible .dock-icon {
+    transform: scale(var(--dock-icon-scale, 1.08));
+    filter: drop-shadow(0.45px 0.8px 1.4px var(--dock-icon-shadow, hsl(var(--background) / 0.75)));
+    color: var(--dock-icon-color-active, hsl(var(--text-primary)));
+}
+
+.dock-label {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%, -4px);
+    padding: 0.15rem 0.4rem;
+    border-radius: var(--radius-sm);
+    background-color: hsl(var(--background) / 0.8);
+    color: hsl(var(--text-primary));
+    font-size: 0.62rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 3;
+}
+
+@keyframes dock-gradient-pan {
+    0% {
+        background-position: 0% 0%, 40% 40%, 0% 0%;
+        filter: saturate(120%) brightness(1.02);
+    }
+    40% {
+        background-position: 60% 20%, 20% 60%, 60% 0%;
+        filter: saturate(150%) brightness(1.08);
+    }
+    70% {
+        background-position: 30% 70%, 70% 20%, 20% 80%;
+        filter: saturate(135%) brightness(1.05);
+    }
+    100% {
+        background-position: 0% 0%, 40% 40%, 0% 0%;
+        filter: saturate(120%) brightness(1.02);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .dock-item,
+    .dock-panel {
+        transition: none;
+    }
+}

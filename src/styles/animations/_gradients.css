@@ -1,0 +1,26 @@
+/**
+ * Animated Gradient Background
+ * Used by AnimatedBackground component
+ */
+
+.animated-gradient-bg {
+    background: linear-gradient(135deg,
+            hsl(var(--gradient-bg-1) / 0.4) 0%,
+            hsl(var(--background)) 20%,
+            hsl(var(--gradient-bg-2) / 0.5) 40%,
+            hsl(var(--background)) 60%,
+            hsl(var(--gradient-bg-3) / 0.4) 80%,
+            hsl(var(--background)) 100%);
+    background-size: 400% 400%;
+}
+
+.dark .animated-gradient-bg {
+    background: linear-gradient(135deg,
+            hsl(var(--gradient-bg-1) / 0.2) 0%,
+            hsl(var(--background)) 20%,
+            hsl(var(--gradient-bg-2) / 0.3) 40%,
+            hsl(var(--background)) 60%,
+            hsl(var(--gradient-bg-3) / 0.2) 80%,
+            hsl(var(--background)) 100%);
+    background-size: 300% 300%;
+}

@@ -1,0 +1,119 @@
+/**
+ * Icon Styling - Primary Color with Hover Glow
+ *
+ * Sidebar navigation icons use primary color for visual consistency.
+ * Hover adds a drop-shadow glow effect.
+ */
+
+/* ============================================================================
+   SIDEBAR NAVIGATION ICONS
+   ============================================================================ */
+
+[data-sidebar] button svg,
+[data-sidebar] a svg {
+    color: hsl(var(--primary)) !important;
+}
+
+[data-sidebar] button:hover svg,
+[data-sidebar] a:hover svg {
+    filter: drop-shadow(0 0 6px hsl(var(--primary) / 0.6));
+}
+
+/* ============================================================================
+   THEME SWITCHER ICON
+   ============================================================================ */
+
+.theme-customizer svg,
+button[aria-label*="theme" i] svg,
+button[aria-label*="toggle" i] svg {
+    color: hsl(var(--primary)) !important;
+}
+
+.theme-customizer:hover svg,
+button[aria-label*="theme" i]:hover svg,
+button[aria-label*="toggle" i]:hover svg {
+    filter: drop-shadow(0 0 6px hsl(var(--primary) / 0.6));
+}
+
+/* ============================================================================
+   SIDEBAR MENU BUTTON ICONS
+   ============================================================================ */
+
+[data-sidebar] [data-slot="sidebar-menu-button"] svg,
+[data-sidebar] .sidebar-menu-button svg,
+[data-sidebar] [class*="SidebarMenuButton"] svg {
+    color: hsl(var(--primary)) !important;
+}
+
+[data-sidebar] [data-slot="sidebar-menu-button"]:hover svg,
+[data-sidebar] .sidebar-menu-button:hover svg,
+[data-sidebar] [class*="SidebarMenuButton"]:hover svg {
+    filter: drop-shadow(0 0 6px hsl(var(--primary) / 0.6));
+}
+
+/* ============================================================================
+   SIDEBAR ICON COLOR - MAXIMUM SPECIFICITY
+   Override SidebarMenuButton default colors
+   ============================================================================ */
+
+[data-sidebar="sidebar"] [data-slot="sidebar-menu-button"]>svg,
+[data-sidebar="sidebar"] [data-sidebar="menu-button"]>svg,
+[data-sidebar="sidebar"] button[data-slot="sidebar-menu-button"]>svg {
+    color: hsl(var(--primary)) !important;
+}
+
+[data-sidebar="sidebar"] [data-slot="sidebar-menu-button"]:hover>svg,
+[data-sidebar="sidebar"] [data-sidebar="menu-button"]:hover>svg,
+[data-sidebar="sidebar"] button[data-slot="sidebar-menu-button"]:hover>svg {
+    filter: drop-shadow(0 0 6px hsl(var(--primary) / 0.6)) !important;
+}
+
+[data-sidebar] svg[class*="text-sidebar"],
+[data-sidebar] svg.text-sidebar-accent-foreground {
+    color: hsl(var(--primary)) !important;
+}
+
+/* ============================================================================
+   SIDEBAR ICON COLOR - CSS VARIABLE OVERRIDE
+   The real issue: --sidebar-foreground is gray, not primary
+   ============================================================================ */
+
+:root,
+.dark {
+    --sidebar-foreground: var(--primary) !important;
+    --sidebar-accent-foreground: var(--primary) !important;
+}
+
+/* ============================================================================
+   SIDEBAR TRIGGER BUTTONS
+   ============================================================================ */
+
+button[data-sidebar="trigger"] svg,
+[data-slot="sidebar-trigger"] svg,
+.sidebar-trigger svg {
+    color: hsl(var(--primary)) !important;
+}
+
+button[data-sidebar="trigger"]:hover svg,
+[data-slot="sidebar-trigger"]:hover svg,
+.sidebar-trigger:hover svg {
+    filter: drop-shadow(0 0 6px hsl(var(--primary) / 0.6));
+}
+
+/* ============================================================================
+   REDUCED MOTION - ICON TRANSITIONS
+   ============================================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+
+    [data-sidebar] button svg,
+    [data-sidebar] a svg,
+    .theme-customizer svg,
+    button[aria-label*="theme" i] svg,
+    button[aria-label*="toggle" i] svg,
+    button[data-sidebar="trigger"] svg,
+    [data-slot="sidebar-trigger"] svg,
+    .sidebar-trigger svg {
+        transition: none;
+    }
+}

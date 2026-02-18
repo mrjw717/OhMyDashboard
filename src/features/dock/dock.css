@@ -1,0 +1,120 @@
+.dock-outer {
+    position: fixed;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    pointer-events: none;
+}
+
+.dock-outer > * {
+    pointer-events: auto;
+}
+
+.dock-panel {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    width: fit-content;
+    gap: 0.5rem;
+    border-radius: 1rem;
+    isolation: isolate;
+    background-color: color-mix(in srgb, hsl(var(--bg-tertiary)) 70%, hsl(var(--background)) 30%);
+    border: 1px solid color-mix(in srgb, hsl(var(--primary)) 55%, hsl(var(--border-default)) 45%);
+    padding: 0.25rem 0.5rem 0.5rem;
+    backdrop-filter: blur(16px);
+    box-shadow: 
+        0 6px 24px hsla(var(--text-primary), 0.2),
+        0 0 32px color-mix(in srgb, hsl(var(--primary)) 35%, transparent),
+        inset 0 1px 0 hsla(var(--text-primary), 0.08);
+}
+
+.dock-panel::before {
+    content: "";
+    position: absolute;
+    inset: -0.65rem;
+    border-radius: 1.5rem;
+    background: radial-gradient(circle at 50% 80%, hsl(var(--primary) / 0.35), transparent 70%);
+    filter: blur(18px);
+    opacity: 0.75;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.dock-item {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.75rem;
+    background-color: color-mix(in srgb, hsl(var(--bg-tertiary)) 60%, hsl(var(--background)) 40%);
+    border: 1px solid hsl(var(--primary));
+    box-shadow: 
+        0 2px 8px hsla(var(--text-primary), 0.05),
+        0 0 12px color-mix(in srgb, hsl(var(--primary)) 35%, transparent);
+    cursor: pointer;
+    outline: none;
+    transition: 
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.dock-item:hover {
+    border-color: color-mix(in srgb, hsl(var(--primary)) 70%, hsl(var(--border-focus)) 30%);
+    box-shadow: 
+        0 10px 24px hsla(var(--text-primary), 0.18),
+        0 0 40px color-mix(in srgb, hsl(var(--primary)) 70%, transparent);
+    background-color: hsl(var(--bg-elevated));
+}
+
+.dock-item:focus-visible {
+    border-color: color-mix(in srgb, hsl(var(--primary)) 80%, hsl(var(--ring)) 20%);
+    box-shadow:
+        0 0 0 2px hsl(var(--background)),
+        0 0 0 4px hsl(var(--primary)),
+        0 8px 20px hsla(var(--text-primary), 0.15);
+}
+
+.dock-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    color: hsl(var(--text-primary));
+}
+
+.dock-label {
+    position: absolute;
+    top: -1.5rem;
+    left: 50%;
+    width: fit-content;
+    white-space: pre;
+    border-radius: 0.375rem;
+    border: 1px solid hsl(var(--border-default));
+    background-color: hsl(var(--bg-secondary));
+    padding: 0.125rem 0.5rem;
+    font-size: 0.75rem;
+    color: hsl(var(--text-primary));
+    transform: translateX(-50%);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 8px hsla(var(--text-primary), 0.1);
+}
+
+.dock-item--flash {
+    animation: dockFlash 0.5s ease;
+    box-shadow:
+        0 0 0 3px color-mix(in srgb, var(--color-primary) 50%, transparent),
+        0 10px 30px hsla(var(--text-primary), 0.12),
+        0 0 26px color-mix(in srgb, var(--color-primary) 45%, transparent);
+}
+
+@keyframes dockFlash {
+    0% { transform: scale(1); filter: brightness(1); }
+    20% { transform: scale(1.08); filter: brightness(1.1); }
+    50% { transform: scale(1.04); filter: brightness(1.05); }
+    100% { transform: scale(1); filter: brightness(1); }
+}

@@ -1,0 +1,41 @@
+/**
+ * Common chart colors for light and dark modes.
+ */
+export const commonChartColors = {
+  light: {
+    chartInst1: '16 90% 60%',
+    chartInst2: '160 84% 39%',
+    chartInst3: '280 65% 60%',
+    chartInst4: '320 70% 60%',
+    chartInst5: '35 90% 55%',
+    chartInst6: '190 90% 40%',
+    chartInst7: '250 70% 65%',
+    chartInst8: '70 80% 45%',
+    chartInst9: '350 85% 60%',
+    chartInst10: '120 70% 45%',
+    chartInst11: '220 80% 55%',
+    chartInst12: '55 90% 50%',
+    chartInst13: '175 80% 45%',
+    chartInst14: '265 75% 60%',
+    chartInst15: '300 80% 60%',
+    chartInst16: '140 70% 50%',
+  },
+  dark: {
+    chartInst1: '16 90% 65%',
+    chartInst2: '160 70% 50%',
+    chartInst3: '280 80% 70%',
+    chartInst4: '320 80% 70%',
+    chartInst5: '35 90% 60%',
+    chartInst6: '190 80% 50%',
+    chartInst7: '250 80% 75%',
+    chartInst8: '70 80% 55%',
+    chartInst9: '350 85% 65%',
+    chartInst10: '120 70% 55%',
+    chartInst11: '220 80% 65%',
+    chartInst12: '55 90% 60%',
+    chartInst13: '175 80% 55%',
+    chartInst14: '265 75% 70%',
+    chartInst15: '300 80% 70%',
+    chartInst16: '140 70% 60%',
+  },
+}

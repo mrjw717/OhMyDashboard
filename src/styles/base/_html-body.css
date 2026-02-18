@@ -1,0 +1,28 @@
+/**
+ * HTML/Body Base Styles
+ *
+ * Architecture:
+ * 1. CSS :root/.dark provides default values (prevents flash)
+ * 2. Theme init script updates CSS variables before render
+ * 3. Background is set on html, body is transparent to show animated bg
+ */
+
+html {
+    scrollbar-gutter: stable;
+    background-color: hsl(var(--background));
+}
+
+body {
+    background: transparent;
+    overflow: hidden !important;
+    height: 100vh !important;
+    color: hsl(var(--foreground));
+}
+
+/* ============================================================================
+   GLOBAL BORDER REMOVAL
+   WHY: Prevents unwanted vertical lines in the layout
+   ============================================================================ */
+* {
+    border: none !important;
+}

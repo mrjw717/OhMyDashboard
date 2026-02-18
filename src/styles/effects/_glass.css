@@ -1,0 +1,12 @@
+/**
+ * Glass Effect Utilities — DOCUMENTATION ONLY
+ *
+ * IMPORTANT: The authoritative definitions for these classes live
+ * inline in src/app/globals.css. Tailwind v4 strips raw backdrop-filter
+ * from @imported CSS files. We must use @apply in the main entry point.
+ *
+ * .shell-glass  - Glassmorphism backdrop blur (12px) for the shell
+ * .glass-extreme - Extreme glassmorphism (24px blur + saturate + contrast)
+ *
+ * @see src/app/globals.css (INLINE EFFECT STYLES section)
+ */

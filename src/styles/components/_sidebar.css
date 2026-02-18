@@ -1,0 +1,298 @@
+/**
+ * Sidebar Transparency System
+ *
+ * WHY: The animated gradient background must be visible through sidebars
+ *
+ * CRITICAL DESIGN DECISIONS:
+ * - All backgrounds forced transparent via !important
+ * - Separators excluded to allow gradient dividers
+ * - Mobile sheets also transparent
+ *
+ * DATA ATTRIBUTES USED:
+ * - [data-sidebar="sidebar"]: Left sidebar
+ * - [data-right-sidebar="sidebar"]: Right sidebar
+ * - [data-right-sidebar="container"]: Right sidebar fixed container
+ * - [data-right-sidebar-provider]: Right sidebar provider wrapper
+ *
+ * WHY DIFFERENT ATTRIBUTES FOR LEFT VS RIGHT:
+ * - Right sidebar uses z-0 (not z-10) for glow overflow
+ * - Separate selectors allow different treatment if needed
+ */
+
+/* ============================================================================
+   LEFT & RIGHT SIDEBAR BASE TRANSPARENCY
+   ============================================================================ */
+
+[data-sidebar="sidebar"],
+[data-slot="sidebar-inner"],
+[data-right-sidebar="sidebar"],
+[data-right-sidebar="container"],
+[data-right-sidebar="sidebar"] [data-slot="sidebar-inner"],
+.bg-right-sidebar,
+div[class*="right-sidebar"] {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* ============================================================================
+   SIDEBAR BACKGROUND CLASS OVERRIDES
+   WHY: Override Tailwind bg-* classes on sidebars
+   ============================================================================ */
+
+.bg-sidebar,
+.bg-sidebar-accent,
+.bg-sidebar-foreground,
+.bg-sidebar-border,
+.bg-sidebar-primary,
+.bg-sidebar-primary-foreground,
+.bg-sidebar-accent-foreground,
+[data-sidebar] [class*="bg-sidebar"] {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Right sidebar background class overrides */
+.bg-right-sidebar,
+[data-right-sidebar] [class*="bg-"],
+[data-right-sidebar="sidebar"] [class*="bg-"],
+[data-right-sidebar*="sidebar"] [class*="bg-"] {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* ============================================================================
+   CSS VARIABLE OVERRIDES
+   WHY: Some components use CSS variables for background colors
+   ============================================================================ */
+
+[data-sidebar*="sidebar"],
+[data-right-sidebar*="sidebar"] {
+    --sidebar-background: transparent !important;
+    --right-sidebar-background: transparent !important;
+    --sidebar-accent: transparent !important;
+    --right-sidebar-accent: transparent !important;
+}
+
+/* ============================================================================
+   SIDEBAR CHILDREN TRANSPARENCY
+   ============================================================================ */
+
+/* Direct children */
+[data-sidebar="sidebar"]>*,
+[data-right-sidebar="sidebar"]>* {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Nested content */
+[data-slot="sidebar-inner"]>*,
+[data-right-sidebar="sidebar"] [data-slot="sidebar-inner"]>*,
+[data-sidebar="sidebar"]>*>*,
+[data-right-sidebar="sidebar"]>*>*,
+[data-sidebar*="sidebar"] * [class*="shadow-"],
+[data-right-sidebar*="sidebar"] * [class*="shadow-"] {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+/* ============================================================================
+   FORCE BORDER REMOVAL - EXCLUDE SEPARATORS
+   ============================================================================ */
+
+[data-sidebar="sidebar"],
+[data-right-sidebar="sidebar"],
+[data-sidebar="sidebar"] *:not([data-sidebar="separator"]),
+[data-right-sidebar="sidebar"] *:not([data-sidebar="separator"]) {
+    border-color: transparent !important;
+    border-right: none !important;
+    border-left: none !important;
+    background-color: transparent !important;
+}
+
+/* All sidebar children - EXCLUDE SEPARATORS */
+[data-sidebar="sidebar"] *:not([data-sidebar="separator"]),
+[data-right-sidebar="sidebar"] *:not([data-sidebar="separator"]) {
+    border-color: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* ============================================================================
+   SIDEBAR WRAPPER & CONTAINER
+   ============================================================================ */
+
+[data-slot="sidebar-wrapper"],
+[data-slot="sidebar-container"] {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* ============================================================================
+   SHEET (MOBILE SIDEBAR)
+   WHY: Mobile sidebars use Sheet component from radix-ui
+   ============================================================================ */
+
+[data-slot="sheet-content"],
+[data-slot="sheet-overlay"],
+[data-radix-slot="sheet-content"] {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* ============================================================================
+   MAIN CONTENT AREA
+   ============================================================================ */
+
+[data-slot="main-content-area"] {
+    background: transparent !important;
+}
+
+.flex.flex-1.flex-col {
+    background: transparent !important;
+}
+
+/* Flex containers */
+.flex.min-h-svh,
+main {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* ============================================================================
+   WRAPPER TRANSPARENCY
+   ============================================================================ */
+
+[class*="wrapper"] {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* Right sidebar provider */
+[data-right-sidebar-provider] {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* ============================================================================
+   LEFT SIDEBAR LINK SHEEN EFFECT
+   
+   Creates a subtle horizontal light sweep animation over navigation link text.
+   The sheen is visible ONLY on the actual text pixels using background-clip: text
+   on a pseudo-element layered on top of the normal text.
+   
+   ============================================================================
+   HOW IT WORKS
+   ============================================================================
+   
+   Two layers:
+   1. Main text: Normal color, always visible
+   2. ::before pseudo: Gradient sheen clipped to text shape, overlaid on top
+   
+   The ::before uses mix-blend-mode: screen to lighten the text beneath
+   without making it transparent. This way the text stays visible while
+   the sheen passes over it.
+   
+   The ::before needs the same text content, provided via data-text attribute.
+   ============================================================================ */
+
+@keyframes sidebar-link-sheen-pass {
+    0% {
+        background-position: -300% center;
+    }
+    100% {
+        background-position: 300% center;
+    }
+}
+
+.sidebar-link-sheen {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    max-width: 100%;
+    color: color-mix(in srgb, hsl(var(--text-secondary)) 70%, hsl(var(--sidebar-foreground)) 30%);
+    transition: color 220ms ease, letter-spacing 200ms ease;
+}
+
+/**
+ * Sheen overlay layer - clipped to text shape
+ * 
+ * Uses content from data-text attribute to duplicate the text.
+ * The gradient is clipped to the text shape and overlaid using
+ * mix-blend-mode: screen to brighten the text beneath.
+ */
+.sidebar-link-sheen::before {
+    content: attr(data-text);
+    position: absolute;
+    inset: 0;
+    display: block;
+    color: transparent;
+    background-image: linear-gradient(
+        110deg,
+        transparent 0%,
+        transparent 30%,
+        hsl(var(--sidebar-primary) / 0.8) 50%,
+        transparent 70%,
+        transparent 100%
+    );
+    background-size: 300% 100%;
+    background-position: -300% center;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    mix-blend-mode: screen;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 200ms ease;
+}
+
+/**
+ * Hover/focus/active states
+ */
+.sidebar-link-sheen:hover,
+.sidebar-link-sheen:focus-visible,
+.sidebar-link-sheen[data-active="true"] {
+    color: color-mix(in srgb, hsl(var(--text-primary)) 55%, hsl(var(--text-secondary)) 45%);
+}
+
+.sidebar-link-sheen:hover::before,
+.sidebar-link-sheen:focus-visible::before {
+    opacity: 1;
+    animation: sidebar-link-sheen-pass 1.15s ease forwards;
+}
+
+/* Active state - text stays visible with brighter color */
+.sidebar-link-sheen[data-active="true"]::before {
+    opacity: 1;
+    background-position: 50% center;
+}
+
+/* Trigger sheen when parent button/link is hovered */
+:where(button, a):hover .sidebar-link-sheen::before,
+:where(button, a):focus-visible .sidebar-link-sheen::before {
+    opacity: 1;
+    animation: sidebar-link-sheen-pass 1.15s ease forwards;
+}
+
+:where(button, a):hover .sidebar-link-sheen,
+:where(button, a):focus-visible .sidebar-link-sheen {
+    color: color-mix(in srgb, hsl(var(--text-primary)) 55%, hsl(var(--text-secondary)) 45%);
+}

@@ -1,0 +1,6 @@
+export { AuroraBackground } from './aurora-background'
+export { FuturisticGridBackground } from './futuristic-grid-background'
+export { GeometricShapesBackground } from './geometric-background'
+export { NeuralBackground } from './neural-background'
+export { GlobalBackgroundManager } from './global-background-manager'
+export { NoiseOverlay } from './noise-overlay'

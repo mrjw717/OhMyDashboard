@@ -1,0 +1,85 @@
+/**
+ * Scrollbar System
+ * Hides scrollbars while maintaining scroll functionality
+ *
+ * WHY HIDE: Clean visual appearance for floating shell design
+ * DO NOT: Re-enable visible scrollbars
+ */
+
+/* HTML scrollbar gutter transparency
+ * WHY: Prevents scrollbar area from showing white/background color */
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+/* Hide scrollbars globally */
+*::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+    opacity: 0 !important;
+    background: transparent !important;
+}
+
+*::-webkit-scrollbar-button,
+*::-webkit-scrollbar-button:vertical:start:decrement,
+*::-webkit-scrollbar-button:vertical:end:increment,
+*::-webkit-scrollbar-button:horizontal:start:decrement,
+*::-webkit-scrollbar-button:horizontal:end:increment {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    opacity: 0 !important;
+    background: transparent !important;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--scrollbar-track, transparent);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--primary) / 0.5) !important;
+    border-radius: var(--scrollbar-radius, 4px);
+    box-shadow: 0 0 8px hsl(var(--primary) / 0.3) !important;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(var(--primary) / 0.8) !important;
+    box-shadow: 0 0 12px hsl(var(--primary) / 0.5) !important;
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background-color: hsl(var(--primary)) !important;
+}
+
+*::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+/* ============================================================================
+   SCROLLABLE CONTAINER
+   Custom class for hiding scrollbars while allowing scroll
+   ============================================================================ */
+
+/**
+ * .scrollable-container
+ *
+ * PURPOSE: Applied to the main content scroll area
+ * - Hides scrollbars completely
+ * - Maintains scroll functionality
+ *
+ * WHY: Clean visual appearance for the floating shell design
+ *
+ * DO NOT: Add overflow-hidden here (would clip shell glow)
+ */
+.scrollable-container::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.scrollable-container {
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+    overflow-y: auto !important;
+}

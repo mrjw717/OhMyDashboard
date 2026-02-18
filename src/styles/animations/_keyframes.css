@@ -1,0 +1,35 @@
+/**
+ * Animation Keyframes
+ */
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 100%;
+    }
+
+    25% {
+        background-position: 100% 0%;
+    }
+
+    50% {
+        background-position: 0% 0%;
+    }
+
+    75% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 100%;
+    }
+}
+
+.animate-gradient-shift {
+    animation: gradient-shift 30s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-gradient-shift {
+        animation: none;
+    }
+}

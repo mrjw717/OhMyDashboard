@@ -1,0 +1,7241 @@
+{
+  "generatedAt": "2026-02-17T02:03:49.757Z",
+  "summary": {
+    "totalFiles": 221,
+    "totalLines": 23174,
+    "totalCodeLines": 18603,
+    "totalCommentLines": 2448,
+    "totalBlankLines": 2123,
+    "totalFunctions": 1092,
+    "totalClasses": 7,
+    "totalJSDocBlocks": 340,
+    "totalColors": 523,
+    "averageCommentDensity": "13.11",
+    "averageCodeDensity": "86.89"
+  },
+  "files": [
+    {
+      "path": "app/(main)/design/backgrounds/page.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/app/(main)/design/backgrounds/page.tsx",
+      "totalLines": 34,
+      "codeLines": 23,
+      "commentLines": 5,
+      "blankLines": 6,
+      "jsdocBlocks": 1,
+      "jsdocLines": 4,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "17.86",
+      "codeDensity": "82.14",
+      "blankPercentage": "17.65",
+      "documentationCoverage": "100.00"
+    },
+    {
+      "path": "app/(main)/inputs/page.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/app/(main)/inputs/page.tsx",
+      "totalLines": 477,
+      "codeLines": 420,
+      "commentLines": 19,
+      "blankLines": 38,
+      "jsdocBlocks": 5,
+      "jsdocLines": 19,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 5,
+      "colors": [
+        {
+          "color": "Red",
+          "line": 448
+        },
+        {
+          "color": "Green",
+          "line": 455
+        },
+        {
+          "color": "Green",
+          "line": 462
+        }
+      ],
+      "functions": 15,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 1,
+      "exports": 1,
+      "imports": 16,
+      "commentDensity": "4.33",
+      "codeDensity": "95.67",
+      "blankPercentage": "7.97",
+      "documentationCoverage": "33.33"
+    },
+    {
+      "path": "app/(main)/layout.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/app/(main)/layout.tsx",
+      "totalLines": 16,
+      "codeLines": 9,
+      "commentLines": 4,
+      "blankLines": 3,
+      "jsdocBlocks": 1,
+      "jsdocLines": 4,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "30.77",
+      "codeDensity": "69.23",
+      "blankPercentage": "18.75",
+      "documentationCoverage": "100.00"
+    },
+    {
+      "path": "app/(main)/page.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/app/(main)/page.tsx",
+      "totalLines": 202,
+      "codeLines": 182,
+      "commentLines": 8,
+      "blankLines": 12,
+      "jsdocBlocks": 2,
+      "jsdocLines": 8,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 2,
+      "colors": [
+        {
+          "color": "red",
+          "line": 190
+        },
+        {
+          "color": "red",
+          "line": 190
+        }
+      ],
+      "functions": 2,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 6,
+      "commentDensity": "4.21",
+      "codeDensity": "95.79",
+      "blankPercentage": "5.94",
+      "documentationCoverage": "100.00"
+    },
+    {
+      "path": "app/api/theme/route.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/app/api/theme/route.ts",
+      "totalLines": 65,
+      "codeLines": 46,
+      "commentLines": 10,
+      "blankLines": 9,
+      "jsdocBlocks": 3,
+      "jsdocLines": 10,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 3,
+      "colors": [
+        {
+          "color": "red",
+          "line": 8
+        },
+        {
+          "color": "rose",
+          "line": 8
+        },
+        {
+          "color": "orange",
+          "line": 8
+        },
+        {
+          "color": "green",
+          "line": 8
+        },
+        {
+          "color": "blue",
+          "line": 8
+        },
+        {
+          "color": "yellow",
+          "line": 8
+        },
+        {
+          "color": "violet",
+          "line": 9
+        },
+        {
+          "color": "indigo",
+          "line": 9
+        },
+        {
+          "color": "cyan",
+          "line": 9
+        },
+        {
+          "color": "lime",
+          "line": 9
+        },
+        {
+          "color": "fuchsia",
+          "line": 10
+        },
+        {
+          "color": "pink",
+          "line": 10
+        }
+      ],
+      "functions": 3,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 2,
+      "commentDensity": "17.86",
+      "codeDensity": "82.14",
+      "blankPercentage": "13.85",
+      "documentationCoverage": "100.00"
+    },
+    {
+      "path": "app/bg-test/page.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/app/bg-test/page.tsx",
+      "totalLines": 257,
+      "codeLines": 240,
+      "commentLines": 8,
+      "blankLines": 9,
+      "jsdocBlocks": 2,
+      "jsdocLines": 8,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 2,
+      "colors": [
+        {
+          "color": "rgba(139, 92, 246, 0.08)",
+          "line": 16
+        },
+        {
+          "color": "rgba(59, 130, 246, 0.05)",
+          "line": 16
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.08)",
+          "line": 16
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.15)",
+          "line": 26
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.1)",
+          "line": 36
+        },
+        {
+          "color": "rgba(59, 130, 246, 0.1)",
+          "line": 36
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.1)",
+          "line": 36
+        },
+        {
+          "color": "rgba(59, 130, 246, 0.1)",
+          "line": 36
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.12)",
+          "line": 47
+        },
+        {
+          "color": "rgba(59, 130, 246, 0.12)",
+          "line": 48
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.12)",
+          "line": 49
+        },
+        {
+          "color": "rgba(59, 130, 246, 0.12)",
+          "line": 50
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.05)",
+          "line": 60
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.15)",
+          "line": 60
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.05)",
+          "line": 60
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.1)",
+          "line": 71
+        },
+        {
+          "color": "rgba(59, 130, 246, 0.1)",
+          "line": 72
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.1)",
+          "line": 82
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.2)",
+          "line": 92
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.02)",
+          "line": 101
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.08)",
+          "line": 101
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.12)",
+          "line": 111
+        },
+        {
+          "color": "rgba(59, 130, 246, 0.12)",
+          "line": 111
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.1)",
+          "line": 122
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.1)",
+          "line": 122
+        },
+        {
+          "color": "rgba(59, 130, 246, 0.08)",
+          "line": 123
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.15)",
+          "line": 135
+        },
+        {
+          "color": "rgba(59, 130, 246, 0.12)",
+          "line": 136
+        },
+        {
+          "color": "rgba(139, 92, 246, 0.1)",
+          "line": 137
+        }
+      ],
+      "functions": 6,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "3.23",
+      "codeDensity": "96.77",
+      "blankPercentage": "3.50",
+      "documentationCoverage": "33.33"
+    },
+    {
+      "path": "app/error.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/app/error.tsx",
+      "totalLines": 44,
+      "codeLines": 35,
+      "commentLines": 5,
+      "blankLines": 4,
+      "jsdocBlocks": 1,
+      "jsdocLines": 4,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 5,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "12.50",
+      "codeDensity": "87.50",
+      "blankPercentage": "9.09",
+      "documentationCoverage": "20.00"
+    },
+    {
+      "path": "app/layout.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/app/layout.tsx",
+      "totalLines": 121,
+      "codeLines": 112,
+      "commentLines": 0,
+      "blankLines": 9,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 9,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "7.44",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "app/not-found.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/app/not-found.tsx",
+      "totalLines": 21,
+      "codeLines": 19,
+      "commentLines": 0,
+      "blankLines": 2,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "9.52",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "app/opengraph-image.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/app/opengraph-image.tsx",
+      "totalLines": 87,
+      "codeLines": 76,
+      "commentLines": 1,
+      "blankLines": 10,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 2,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 1,
+      "exports": 5,
+      "imports": 2,
+      "commentDensity": "1.30",
+      "codeDensity": "98.70",
+      "blankPercentage": "11.49",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "app/theme-hydrator.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/app/theme-hydrator.tsx",
+      "totalLines": 264,
+      "codeLines": 198,
+      "commentLines": 37,
+      "blankLines": 29,
+      "jsdocBlocks": 8,
+      "jsdocLines": 34,
+      "singleLineComments": 3,
+      "multiLineCommentBlocks": 8,
+      "colors": [],
+      "functions": 18,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 2,
+      "imports": 4,
+      "commentDensity": "15.74",
+      "codeDensity": "84.26",
+      "blankPercentage": "10.98",
+      "documentationCoverage": "44.44"
+    },
+    {
+      "path": "components/layout/backgrounds/aurora-background.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/backgrounds/aurora-background.tsx",
+      "totalLines": 66,
+      "codeLines": 49,
+      "commentLines": 12,
+      "blankLines": 5,
+      "jsdocBlocks": 1,
+      "jsdocLines": 12,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 2,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "19.67",
+      "codeDensity": "80.33",
+      "blankPercentage": "7.58",
+      "documentationCoverage": "50.00"
+    },
+    {
+      "path": "components/layout/backgrounds/futuristic-grid-background.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/backgrounds/futuristic-grid-background.tsx",
+      "totalLines": 336,
+      "codeLines": 246,
+      "commentLines": 27,
+      "blankLines": 63,
+      "jsdocBlocks": 2,
+      "jsdocLines": 16,
+      "singleLineComments": 11,
+      "multiLineCommentBlocks": 2,
+      "colors": [],
+      "functions": 15,
+      "classes": 1,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 5,
+      "commentDensity": "9.89",
+      "codeDensity": "90.11",
+      "blankPercentage": "18.75",
+      "documentationCoverage": "13.33"
+    },
+    {
+      "path": "components/layout/backgrounds/geometric-background.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/backgrounds/geometric-background.tsx",
+      "totalLines": 453,
+      "codeLines": 332,
+      "commentLines": 52,
+      "blankLines": 69,
+      "jsdocBlocks": 6,
+      "jsdocLines": 23,
+      "singleLineComments": 29,
+      "multiLineCommentBlocks": 6,
+      "colors": [],
+      "functions": 16,
+      "classes": 2,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 5,
+      "commentDensity": "13.54",
+      "codeDensity": "86.46",
+      "blankPercentage": "15.23",
+      "documentationCoverage": "37.50"
+    },
+    {
+      "path": "components/layout/backgrounds/global-background-manager.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/backgrounds/global-background-manager.tsx",
+      "totalLines": 65,
+      "codeLines": 46,
+      "commentLines": 12,
+      "blankLines": 7,
+      "jsdocBlocks": 1,
+      "jsdocLines": 12,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 4,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 8,
+      "commentDensity": "20.69",
+      "codeDensity": "79.31",
+      "blankPercentage": "10.77",
+      "documentationCoverage": "25.00"
+    },
+    {
+      "path": "components/layout/backgrounds/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/backgrounds/index.ts",
+      "totalLines": 7,
+      "codeLines": 6,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 6,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "14.29",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "components/layout/backgrounds/neural-background.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/backgrounds/neural-background.tsx",
+      "totalLines": 447,
+      "codeLines": 319,
+      "commentLines": 61,
+      "blankLines": 67,
+      "jsdocBlocks": 9,
+      "jsdocLines": 53,
+      "singleLineComments": 8,
+      "multiLineCommentBlocks": 9,
+      "colors": [],
+      "functions": 18,
+      "classes": 2,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 5,
+      "commentDensity": "16.05",
+      "codeDensity": "83.95",
+      "blankPercentage": "14.99",
+      "documentationCoverage": "50.00"
+    },
+    {
+      "path": "components/layout/backgrounds/noise-overlay.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/backgrounds/noise-overlay.tsx",
+      "totalLines": 28,
+      "codeLines": 25,
+      "commentLines": 0,
+      "blankLines": 3,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "10.71",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/layout/breadcrumbs.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/breadcrumbs.tsx",
+      "totalLines": 48,
+      "codeLines": 43,
+      "commentLines": 0,
+      "blankLines": 5,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 3,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "10.42",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/layout/console-drawer/console-cube.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/console-drawer/console-cube.tsx",
+      "totalLines": 316,
+      "codeLines": 170,
+      "commentLines": 109,
+      "blankLines": 37,
+      "jsdocBlocks": 4,
+      "jsdocLines": 95,
+      "singleLineComments": 14,
+      "multiLineCommentBlocks": 4,
+      "colors": [],
+      "functions": 12,
+      "classes": 0,
+      "interfaces": 2,
+      "types": 0,
+      "exports": 2,
+      "imports": 3,
+      "commentDensity": "39.07",
+      "codeDensity": "60.93",
+      "blankPercentage": "11.71",
+      "documentationCoverage": "33.33"
+    },
+    {
+      "path": "components/layout/console-drawer/electric-line.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/console-drawer/electric-line.tsx",
+      "totalLines": 225,
+      "codeLines": 169,
+      "commentLines": 14,
+      "blankLines": 42,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 14,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 9,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "7.65",
+      "codeDensity": "92.35",
+      "blankPercentage": "18.67",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/layout/console-drawer/index.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/console-drawer/index.tsx",
+      "totalLines": 184,
+      "codeLines": 132,
+      "commentLines": 42,
+      "blankLines": 10,
+      "jsdocBlocks": 2,
+      "jsdocLines": 42,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 2,
+      "colors": [],
+      "functions": 4,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 6,
+      "commentDensity": "24.14",
+      "codeDensity": "75.86",
+      "blankPercentage": "5.43",
+      "documentationCoverage": "50.00"
+    },
+    {
+      "path": "components/layout/console-drawer/sidebar-control-panel.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/console-drawer/sidebar-control-panel.tsx",
+      "totalLines": 199,
+      "codeLines": 161,
+      "commentLines": 12,
+      "blankLines": 26,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 12,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 15,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 8,
+      "commentDensity": "6.94",
+      "codeDensity": "93.06",
+      "blankPercentage": "13.07",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/layout/console-drawer/types.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/console-drawer/types.ts",
+      "totalLines": 33,
+      "codeLines": 6,
+      "commentLines": 24,
+      "blankLines": 3,
+      "jsdocBlocks": 3,
+      "jsdocLines": 24,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 3,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "80.00",
+      "codeDensity": "20.00",
+      "blankPercentage": "9.09",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "components/layout/console-drawer/views/console-view.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/console-drawer/views/console-view.tsx",
+      "totalLines": 221,
+      "codeLines": 133,
+      "commentLines": 72,
+      "blankLines": 16,
+      "jsdocBlocks": 3,
+      "jsdocLines": 70,
+      "singleLineComments": 2,
+      "multiLineCommentBlocks": 3,
+      "colors": [],
+      "functions": 14,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 6,
+      "commentDensity": "35.12",
+      "codeDensity": "64.88",
+      "blankPercentage": "7.24",
+      "documentationCoverage": "21.43"
+    },
+    {
+      "path": "components/layout/console-drawer/views/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/console-drawer/views/index.ts",
+      "totalLines": 21,
+      "codeLines": 3,
+      "commentLines": 17,
+      "blankLines": 1,
+      "jsdocBlocks": 1,
+      "jsdocLines": 17,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 0,
+      "commentDensity": "85.00",
+      "codeDensity": "15.00",
+      "blankPercentage": "4.76",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "components/layout/console-drawer/views/metrics-view.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/console-drawer/views/metrics-view.tsx",
+      "totalLines": 138,
+      "codeLines": 121,
+      "commentLines": 0,
+      "blankLines": 17,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 9,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "12.32",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/layout/console-drawer/views/network-view.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/console-drawer/views/network-view.tsx",
+      "totalLines": 85,
+      "codeLines": 76,
+      "commentLines": 0,
+      "blankLines": 9,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 4,
+      "classes": 0,
+      "interfaces": 2,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "10.59",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/layout/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/index.ts",
+      "totalLines": 4,
+      "codeLines": 3,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "25.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "components/layout/shell/header.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/shell/header.tsx",
+      "totalLines": 86,
+      "codeLines": 72,
+      "commentLines": 4,
+      "blankLines": 10,
+      "jsdocBlocks": 1,
+      "jsdocLines": 4,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "white",
+          "line": 47
+        }
+      ],
+      "functions": 4,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 8,
+      "commentDensity": "5.26",
+      "codeDensity": "94.74",
+      "blankPercentage": "11.63",
+      "documentationCoverage": "25.00"
+    },
+    {
+      "path": "components/layout/shell/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/shell/index.ts",
+      "totalLines": 3,
+      "codeLines": 2,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "33.33",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "components/layout/shell/shell.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/shell/shell.tsx",
+      "totalLines": 68,
+      "codeLines": 48,
+      "commentLines": 13,
+      "blankLines": 7,
+      "jsdocBlocks": 1,
+      "jsdocLines": 13,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 7,
+      "commentDensity": "21.31",
+      "codeDensity": "78.69",
+      "blankPercentage": "10.29",
+      "documentationCoverage": "100.00"
+    },
+    {
+      "path": "components/layout/sidebar-divider.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/sidebar-divider.tsx",
+      "totalLines": 15,
+      "codeLines": 13,
+      "commentLines": 0,
+      "blankLines": 2,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "13.33",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/layout/sidebar-primary/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/sidebar-primary/index.ts",
+      "totalLines": 5,
+      "codeLines": 3,
+      "commentLines": 0,
+      "blankLines": 2,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "40.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "components/layout/sidebar-primary/sidebar-primary-nav.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/sidebar-primary/sidebar-primary-nav.tsx",
+      "totalLines": 83,
+      "codeLines": 76,
+      "commentLines": 0,
+      "blankLines": 7,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 3,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 6,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "8.43",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/layout/sidebar-primary/sidebar-primary-user-menu.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/sidebar-primary/sidebar-primary-user-menu.tsx",
+      "totalLines": 109,
+      "codeLines": 103,
+      "commentLines": 0,
+      "blankLines": 6,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 5,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "5.50",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/layout/sidebar-primary/sidebar-primary.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/sidebar-primary/sidebar-primary.tsx",
+      "totalLines": 64,
+      "codeLines": 60,
+      "commentLines": 0,
+      "blankLines": 4,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 8,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "6.25",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/layout/sidebar-secondary/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/sidebar-secondary/index.ts",
+      "totalLines": 3,
+      "codeLines": 1,
+      "commentLines": 0,
+      "blankLines": 2,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "66.67",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "components/layout/sidebar-secondary/sidebar-secondary.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/layout/sidebar-secondary/sidebar-secondary.tsx",
+      "totalLines": 53,
+      "codeLines": 49,
+      "commentLines": 0,
+      "blankLines": 4,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 4,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "7.55",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/loading/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/loading/index.ts",
+      "totalLines": 7,
+      "codeLines": 6,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 6,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "14.29",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "components/loading/skeleton-chart.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/loading/skeleton-chart.tsx",
+      "totalLines": 20,
+      "codeLines": 18,
+      "commentLines": 0,
+      "blankLines": 2,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "10.00",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/loading/skeleton-header.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/loading/skeleton-header.tsx",
+      "totalLines": 20,
+      "codeLines": 18,
+      "commentLines": 0,
+      "blankLines": 2,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "10.00",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/loading/skeleton-metric-card.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/loading/skeleton-metric-card.tsx",
+      "totalLines": 21,
+      "codeLines": 19,
+      "commentLines": 0,
+      "blankLines": 2,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "9.52",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/loading/skeleton-page.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/loading/skeleton-page.tsx",
+      "totalLines": 35,
+      "codeLines": 33,
+      "commentLines": 0,
+      "blankLines": 2,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 2,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 5,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "5.71",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/loading/skeleton-sidebar.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/loading/skeleton-sidebar.tsx",
+      "totalLines": 15,
+      "codeLines": 13,
+      "commentLines": 0,
+      "blankLines": 2,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 2,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "13.33",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/loading/skeleton-table.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/loading/skeleton-table.tsx",
+      "totalLines": 29,
+      "codeLines": 27,
+      "commentLines": 0,
+      "blankLines": 2,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 4,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "6.90",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/avatar.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/avatar.tsx",
+      "totalLines": 54,
+      "codeLines": 47,
+      "commentLines": 0,
+      "blankLines": 7,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 3,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "12.96",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/badge.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/badge.tsx",
+      "totalLines": 47,
+      "codeLines": 41,
+      "commentLines": 0,
+      "blankLines": 6,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [
+        {
+          "color": "white",
+          "line": 17
+        }
+      ],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 4,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "12.77",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/breadcrumb.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/breadcrumb.tsx",
+      "totalLines": 110,
+      "codeLines": 99,
+      "commentLines": 0,
+      "blankLines": 11,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 7,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 4,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "10.00",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/button.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/button.tsx",
+      "totalLines": 62,
+      "codeLines": 55,
+      "commentLines": 0,
+      "blankLines": 7,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 5,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "11.29",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/card.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/card.tsx",
+      "totalLines": 98,
+      "codeLines": 87,
+      "commentLines": 0,
+      "blankLines": 11,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 7,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "11.22",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/chart.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/chart.tsx",
+      "totalLines": 358,
+      "codeLines": 319,
+      "commentLines": 2,
+      "blankLines": 37,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 2,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 14,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 1,
+      "exports": 2,
+      "imports": 3,
+      "commentDensity": "0.62",
+      "codeDensity": "99.38",
+      "blankPercentage": "10.34",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/checkbox.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/checkbox.tsx",
+      "totalLines": 33,
+      "codeLines": 28,
+      "commentLines": 0,
+      "blankLines": 5,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 4,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "15.15",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/collapsible.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/collapsible.tsx",
+      "totalLines": 12,
+      "codeLines": 6,
+      "commentLines": 0,
+      "blankLines": 6,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "50.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "components/ui/copy-button.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/copy-button.tsx",
+      "totalLines": 52,
+      "codeLines": 43,
+      "commentLines": 2,
+      "blankLines": 7,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 2,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 5,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 4,
+      "commentDensity": "4.44",
+      "codeDensity": "95.56",
+      "blankPercentage": "13.46",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/dialog.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/dialog.tsx",
+      "totalLines": 123,
+      "codeLines": 109,
+      "commentLines": 0,
+      "blankLines": 14,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [
+        {
+          "color": "black",
+          "line": 24
+        }
+      ],
+      "functions": 6,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 4,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "11.38",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/drawer.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/drawer.tsx",
+      "totalLines": 136,
+      "codeLines": 122,
+      "commentLines": 0,
+      "blankLines": 14,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [
+        {
+          "color": "black",
+          "line": 40
+        }
+      ],
+      "functions": 10,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "10.29",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/dropdown-menu.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/dropdown-menu.tsx",
+      "totalLines": 258,
+      "codeLines": 239,
+      "commentLines": 0,
+      "blankLines": 19,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 15,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 4,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "7.36",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/empty-state.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/empty-state.tsx",
+      "totalLines": 45,
+      "codeLines": 42,
+      "commentLines": 0,
+      "blankLines": 3,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 2,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "6.67",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/form.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/form.tsx",
+      "totalLines": 253,
+      "codeLines": 223,
+      "commentLines": 0,
+      "blankLines": 30,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 9,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 5,
+      "exports": 1,
+      "imports": 7,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "11.86",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/glass-tabs.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/glass-tabs.tsx",
+      "totalLines": 184,
+      "codeLines": 166,
+      "commentLines": 0,
+      "blankLines": 18,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 8,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 4,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "9.78",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/input.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/input.tsx",
+      "totalLines": 26,
+      "codeLines": 22,
+      "commentLines": 0,
+      "blankLines": 4,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "15.38",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/label.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/label.tsx",
+      "totalLines": 25,
+      "codeLines": 20,
+      "commentLines": 0,
+      "blankLines": 5,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "20.00",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/liquid-glass.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/liquid-glass.tsx",
+      "totalLines": 80,
+      "codeLines": 55,
+      "commentLines": 20,
+      "blankLines": 5,
+      "jsdocBlocks": 1,
+      "jsdocLines": 20,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 3,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "26.67",
+      "codeDensity": "73.33",
+      "blankPercentage": "6.25",
+      "documentationCoverage": "33.33"
+    },
+    {
+      "path": "components/ui/radio-group.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/radio-group.tsx",
+      "totalLines": 45,
+      "codeLines": 39,
+      "commentLines": 0,
+      "blankLines": 6,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 2,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 4,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "13.33",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/right-sidebar.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/right-sidebar.tsx",
+      "totalLines": 871,
+      "codeLines": 686,
+      "commentLines": 129,
+      "blankLines": 56,
+      "jsdocBlocks": 9,
+      "jsdocLines": 129,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 9,
+      "colors": [],
+      "functions": 37,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 1,
+      "exports": 1,
+      "imports": 14,
+      "commentDensity": "15.83",
+      "codeDensity": "84.17",
+      "blankPercentage": "6.43",
+      "documentationCoverage": "24.32"
+    },
+    {
+      "path": "components/ui/scroll-area.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/scroll-area.tsx",
+      "totalLines": 18,
+      "codeLines": 15,
+      "commentLines": 0,
+      "blankLines": 3,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "16.67",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/scroll-blur.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/scroll-blur.tsx",
+      "totalLines": 196,
+      "codeLines": 147,
+      "commentLines": 26,
+      "blankLines": 23,
+      "jsdocBlocks": 2,
+      "jsdocLines": 26,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 2,
+      "colors": [
+        {
+          "color": "black",
+          "line": 51
+        },
+        {
+          "color": "black",
+          "line": 52
+        }
+      ],
+      "functions": 8,
+      "classes": 0,
+      "interfaces": 2,
+      "types": 0,
+      "exports": 2,
+      "imports": 2,
+      "commentDensity": "15.03",
+      "codeDensity": "84.97",
+      "blankPercentage": "11.73",
+      "documentationCoverage": "25.00"
+    },
+    {
+      "path": "components/ui/scroll-to-top.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/scroll-to-top.tsx",
+      "totalLines": 74,
+      "codeLines": 62,
+      "commentLines": 1,
+      "blankLines": 11,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 5,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 4,
+      "commentDensity": "1.59",
+      "codeDensity": "98.41",
+      "blankPercentage": "14.86",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/secure-ssn-input.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/secure-ssn-input.tsx",
+      "totalLines": 185,
+      "codeLines": 163,
+      "commentLines": 1,
+      "blankLines": 21,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 7,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 6,
+      "commentDensity": "0.61",
+      "codeDensity": "99.39",
+      "blankPercentage": "11.35",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/select.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/select.tsx",
+      "totalLines": 191,
+      "codeLines": 177,
+      "commentLines": 0,
+      "blankLines": 14,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 10,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 4,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "7.33",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/separator.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/separator.tsx",
+      "totalLines": 29,
+      "codeLines": 24,
+      "commentLines": 0,
+      "blankLines": 5,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "17.24",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/sheet.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/sheet.tsx",
+      "totalLines": 140,
+      "codeLines": 126,
+      "commentLines": 0,
+      "blankLines": 14,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [
+        {
+          "color": "black",
+          "line": 39
+        }
+      ],
+      "functions": 10,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 4,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "10.00",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/sidebar.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/sidebar.tsx",
+      "totalLines": 877,
+      "codeLines": 676,
+      "commentLines": 146,
+      "blankLines": 55,
+      "jsdocBlocks": 9,
+      "jsdocLines": 135,
+      "singleLineComments": 11,
+      "multiLineCommentBlocks": 9,
+      "colors": [],
+      "functions": 37,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 1,
+      "exports": 1,
+      "imports": 13,
+      "commentDensity": "17.76",
+      "codeDensity": "82.24",
+      "blankPercentage": "6.27",
+      "documentationCoverage": "24.32"
+    },
+    {
+      "path": "components/ui/skeleton.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/skeleton.tsx",
+      "totalLines": 14,
+      "codeLines": 11,
+      "commentLines": 0,
+      "blankLines": 3,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "21.43",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/slider.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/slider.tsx",
+      "totalLines": 64,
+      "codeLines": 58,
+      "commentLines": 0,
+      "blankLines": 6,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [
+        {
+          "color": "white",
+          "line": 56
+        }
+      ],
+      "functions": 3,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "9.38",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/smart-input-field.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/smart-input-field.tsx",
+      "totalLines": 159,
+      "codeLines": 146,
+      "commentLines": 0,
+      "blankLines": 13,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 8,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 1,
+      "exports": 2,
+      "imports": 4,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "8.18",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/smart-input.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/smart-input.tsx",
+      "totalLines": 454,
+      "codeLines": 405,
+      "commentLines": 5,
+      "blankLines": 44,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 5,
+      "multiLineCommentBlocks": 0,
+      "colors": [
+        {
+          "color": "blue",
+          "line": 19
+        },
+        {
+          "color": "blue",
+          "line": 19
+        },
+        {
+          "color": "red",
+          "line": 20
+        },
+        {
+          "color": "red",
+          "line": 20
+        },
+        {
+          "color": "blue",
+          "line": 21
+        },
+        {
+          "color": "blue",
+          "line": 21
+        },
+        {
+          "color": "orange",
+          "line": 22
+        },
+        {
+          "color": "orange",
+          "line": 22
+        }
+      ],
+      "functions": 15,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 5,
+      "exports": 4,
+      "imports": 5,
+      "commentDensity": "1.22",
+      "codeDensity": "98.78",
+      "blankPercentage": "9.69",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/sonner.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/sonner.tsx",
+      "totalLines": 50,
+      "codeLines": 45,
+      "commentLines": 0,
+      "blankLines": 5,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "10.00",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/table.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/table.tsx",
+      "totalLines": 117,
+      "codeLines": 105,
+      "commentLines": 0,
+      "blankLines": 12,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 8,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "10.26",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/tabs.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/tabs.tsx",
+      "totalLines": 67,
+      "codeLines": 59,
+      "commentLines": 0,
+      "blankLines": 8,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 4,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "11.94",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/toggle-group.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/toggle-group.tsx",
+      "totalLines": 84,
+      "codeLines": 76,
+      "commentLines": 0,
+      "blankLines": 8,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 2,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 5,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "9.52",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/toggle.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/toggle.tsx",
+      "totalLines": 48,
+      "codeLines": 42,
+      "commentLines": 0,
+      "blankLines": 6,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 4,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "12.50",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "components/ui/tooltip.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/components/ui/tooltip.tsx",
+      "totalLines": 91,
+      "codeLines": 80,
+      "commentLines": 0,
+      "blankLines": 11,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 4,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 4,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "12.09",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "config/constants/cookies.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/constants/cookies.ts",
+      "totalLines": 10,
+      "codeLines": 2,
+      "commentLines": 6,
+      "blankLines": 2,
+      "jsdocBlocks": 2,
+      "jsdocLines": 6,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 2,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "75.00",
+      "codeDensity": "25.00",
+      "blankPercentage": "20.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/constants/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/constants/index.ts",
+      "totalLines": 3,
+      "codeLines": 2,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "33.33",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/constants/layout.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/constants/layout.ts",
+      "totalLines": 46,
+      "codeLines": 30,
+      "commentLines": 12,
+      "blankLines": 4,
+      "jsdocBlocks": 4,
+      "jsdocLines": 12,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 4,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 4,
+      "imports": 0,
+      "commentDensity": "28.57",
+      "codeDensity": "71.43",
+      "blankPercentage": "8.70",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/index.ts",
+      "totalLines": 2,
+      "codeLines": 1,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "50.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/navigation/documents.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/navigation/documents.ts",
+      "totalLines": 29,
+      "codeLines": 23,
+      "commentLines": 4,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 4,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "14.81",
+      "codeDensity": "85.19",
+      "blankPercentage": "6.90",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/navigation/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/navigation/index.ts",
+      "totalLines": 4,
+      "codeLines": 3,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "25.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/navigation/nav-primary.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/navigation/nav-primary.ts",
+      "totalLines": 151,
+      "codeLines": 134,
+      "commentLines": 12,
+      "blankLines": 5,
+      "jsdocBlocks": 3,
+      "jsdocLines": 12,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 3,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 3,
+      "commentDensity": "8.22",
+      "codeDensity": "91.78",
+      "blankPercentage": "3.31",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/navigation/user.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/navigation/user.ts",
+      "totalLines": 11,
+      "codeLines": 6,
+      "commentLines": 3,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "33.33",
+      "codeDensity": "66.67",
+      "blankPercentage": "18.18",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/buttons.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/buttons.ts",
+      "totalLines": 25,
+      "codeLines": 19,
+      "commentLines": 4,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "17.39",
+      "codeDensity": "82.61",
+      "blankPercentage": "8.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/colors.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/colors.ts",
+      "totalLines": 183,
+      "codeLines": 135,
+      "commentLines": 31,
+      "blankLines": 17,
+      "jsdocBlocks": 1,
+      "jsdocLines": 31,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "hsl(210, 40%, 98%)",
+          "line": 40
+        },
+        {
+          "color": "hsl(0, 0%, 100%)",
+          "line": 43
+        },
+        {
+          "color": "hsl(0, 0%, 100%)",
+          "line": 46
+        },
+        {
+          "color": "hsl(38, 92%, 50%)",
+          "line": 55
+        },
+        {
+          "color": "hsl(199, 89%, 48%)",
+          "line": 57
+        },
+        {
+          "color": "hsl(210, 20%, 90%)",
+          "line": 62
+        },
+        {
+          "color": "hsl(215, 20%, 70%)",
+          "line": 63
+        },
+        {
+          "color": "hsl(215, 15%, 50%)",
+          "line": 64
+        },
+        {
+          "color": "hsl(215, 10%, 35%)",
+          "line": 65
+        },
+        {
+          "color": "hsl(38, 92%, 50%)",
+          "line": 81
+        },
+        {
+          "color": "hsl(0, 72%, 51%)",
+          "line": 82
+        },
+        {
+          "color": "hsl(199, 89%, 48%)",
+          "line": 83
+        },
+        {
+          "color": "hsl(210,20%,90%)",
+          "line": 91
+        },
+        {
+          "color": "hsl(210,15%,85%)",
+          "line": 95
+        },
+        {
+          "color": "hsl(215,20%,70%)",
+          "line": 99
+        },
+        {
+          "color": "hsl(215,15%,50%)",
+          "line": 103
+        },
+        {
+          "color": "hsl(210,18%,80%)",
+          "line": 107
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 5,
+      "imports": 0,
+      "commentDensity": "18.67",
+      "codeDensity": "81.33",
+      "blankPercentage": "9.29",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/common-text-colors.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/common-text-colors.ts",
+      "totalLines": 64,
+      "codeLines": 49,
+      "commentLines": 12,
+      "blankLines": 3,
+      "jsdocBlocks": 1,
+      "jsdocLines": 12,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "19.67",
+      "codeDensity": "80.33",
+      "blankPercentage": "4.69",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/common.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/common.ts",
+      "totalLines": 42,
+      "codeLines": 38,
+      "commentLines": 3,
+      "blankLines": 1,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "7.32",
+      "codeDensity": "92.68",
+      "blankPercentage": "2.38",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/component-styles.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/component-styles.ts",
+      "totalLines": 25,
+      "codeLines": 21,
+      "commentLines": 3,
+      "blankLines": 1,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "12.50",
+      "codeDensity": "87.50",
+      "blankPercentage": "4.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/blue.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/blue.ts",
+      "totalLines": 138,
+      "codeLines": 127,
+      "commentLines": 9,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 6,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "blue",
+          "line": 9
+        },
+        {
+          "color": "Blue",
+          "line": 10
+        },
+        {
+          "color": "Blue",
+          "line": 33
+        },
+        {
+          "color": "Cyan",
+          "line": 34
+        },
+        {
+          "color": "Indigo",
+          "line": 35
+        },
+        {
+          "color": "Violet",
+          "line": 36
+        },
+        {
+          "color": "Teal",
+          "line": 37
+        },
+        {
+          "color": "Blue",
+          "line": 38
+        },
+        {
+          "color": "Blue",
+          "line": 39
+        },
+        {
+          "color": "Purple",
+          "line": 40
+        },
+        {
+          "color": "Blue",
+          "line": 42
+        },
+        {
+          "color": "Blue",
+          "line": 43
+        },
+        {
+          "color": "Lavender",
+          "line": 44
+        },
+        {
+          "color": "Blue",
+          "line": 57
+        },
+        {
+          "color": "Cyan",
+          "line": 58
+        },
+        {
+          "color": "Indigo",
+          "line": 59
+        },
+        {
+          "color": "Blue",
+          "line": 120
+        },
+        {
+          "color": "Cyan",
+          "line": 121
+        },
+        {
+          "color": "Indigo",
+          "line": 122
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "6.62",
+      "codeDensity": "93.38",
+      "blankPercentage": "1.45",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/cyan.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/cyan.ts",
+      "totalLines": 138,
+      "codeLines": 127,
+      "commentLines": 9,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 6,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "cyan",
+          "line": 9
+        },
+        {
+          "color": "Cyan",
+          "line": 10
+        },
+        {
+          "color": "Cyan",
+          "line": 33
+        },
+        {
+          "color": "Teal",
+          "line": 35
+        },
+        {
+          "color": "Blue",
+          "line": 36
+        },
+        {
+          "color": "Blue",
+          "line": 37
+        },
+        {
+          "color": "Cyan",
+          "line": 39
+        },
+        {
+          "color": "Indigo",
+          "line": 40
+        },
+        {
+          "color": "Cyan",
+          "line": 42
+        },
+        {
+          "color": "Cyan",
+          "line": 43
+        },
+        {
+          "color": "Teal",
+          "line": 44
+        },
+        {
+          "color": "Cyan",
+          "line": 57
+        },
+        {
+          "color": "Teal",
+          "line": 58
+        },
+        {
+          "color": "Blue",
+          "line": 59
+        },
+        {
+          "color": "Cyan",
+          "line": 120
+        },
+        {
+          "color": "Teal",
+          "line": 121
+        },
+        {
+          "color": "Blue",
+          "line": 122
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "6.62",
+      "codeDensity": "93.38",
+      "blankPercentage": "1.45",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/emerald.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/emerald.ts",
+      "totalLines": 138,
+      "codeLines": 127,
+      "commentLines": 9,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 6,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "Teal",
+          "line": 34
+        },
+        {
+          "color": "Cyan",
+          "line": 35
+        },
+        {
+          "color": "Green",
+          "line": 36
+        },
+        {
+          "color": "Lime",
+          "line": 37
+        },
+        {
+          "color": "Blue",
+          "line": 40
+        },
+        {
+          "color": "Green",
+          "line": 41
+        },
+        {
+          "color": "Green",
+          "line": 58
+        },
+        {
+          "color": "Teal",
+          "line": 59
+        },
+        {
+          "color": "Lime",
+          "line": 60
+        },
+        {
+          "color": "Green",
+          "line": 121
+        },
+        {
+          "color": "Teal",
+          "line": 122
+        },
+        {
+          "color": "Lime",
+          "line": 123
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "6.62",
+      "codeDensity": "93.38",
+      "blankPercentage": "1.45",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/fuchsia.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/fuchsia.ts",
+      "totalLines": 138,
+      "codeLines": 127,
+      "commentLines": 9,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 6,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "fuchsia",
+          "line": 9
+        },
+        {
+          "color": "Fuchsia",
+          "line": 10
+        },
+        {
+          "color": "Fuchsia",
+          "line": 33
+        },
+        {
+          "color": "Magenta",
+          "line": 34
+        },
+        {
+          "color": "Violet",
+          "line": 35
+        },
+        {
+          "color": "Pink",
+          "line": 36
+        },
+        {
+          "color": "Teal",
+          "line": 37
+        },
+        {
+          "color": "Fuchsia",
+          "line": 38
+        },
+        {
+          "color": "Fuchsia",
+          "line": 39
+        },
+        {
+          "color": "Blue",
+          "line": 40
+        },
+        {
+          "color": "Green",
+          "line": 41
+        },
+        {
+          "color": "Fuchsia",
+          "line": 42
+        },
+        {
+          "color": "Purple",
+          "line": 43
+        },
+        {
+          "color": "Orchid",
+          "line": 44
+        },
+        {
+          "color": "Fuchsia",
+          "line": 57
+        },
+        {
+          "color": "Pink",
+          "line": 58
+        },
+        {
+          "color": "Purple",
+          "line": 59
+        },
+        {
+          "color": "Rose",
+          "line": 60
+        },
+        {
+          "color": "Fuchsia",
+          "line": 120
+        },
+        {
+          "color": "Pink",
+          "line": 121
+        },
+        {
+          "color": "Purple",
+          "line": 122
+        },
+        {
+          "color": "Rose",
+          "line": 123
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "6.62",
+      "codeDensity": "93.38",
+      "blankPercentage": "1.45",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/green.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/green.ts",
+      "totalLines": 138,
+      "codeLines": 127,
+      "commentLines": 9,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 6,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "green",
+          "line": 9
+        },
+        {
+          "color": "Green",
+          "line": 10
+        },
+        {
+          "color": "Green",
+          "line": 33
+        },
+        {
+          "color": "Lime",
+          "line": 35
+        },
+        {
+          "color": "Teal",
+          "line": 36
+        },
+        {
+          "color": "Green",
+          "line": 37
+        },
+        {
+          "color": "Green",
+          "line": 39
+        },
+        {
+          "color": "Olive",
+          "line": 40
+        },
+        {
+          "color": "Teal",
+          "line": 42
+        },
+        {
+          "color": "Lime",
+          "line": 43
+        },
+        {
+          "color": "Green",
+          "line": 57
+        },
+        {
+          "color": "Lime",
+          "line": 59
+        },
+        {
+          "color": "Teal",
+          "line": 60
+        },
+        {
+          "color": "Green",
+          "line": 120
+        },
+        {
+          "color": "Lime",
+          "line": 122
+        },
+        {
+          "color": "Teal",
+          "line": 123
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "6.62",
+      "codeDensity": "93.38",
+      "blankPercentage": "1.45",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/index.ts",
+      "totalLines": 37,
+      "codeLines": 22,
+      "commentLines": 9,
+      "blankLines": 6,
+      "jsdocBlocks": 1,
+      "jsdocLines": 4,
+      "singleLineComments": 5,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "red",
+          "line": 11
+        },
+        {
+          "color": "rose",
+          "line": 12
+        },
+        {
+          "color": "orange",
+          "line": 13
+        },
+        {
+          "color": "green",
+          "line": 14
+        },
+        {
+          "color": "blue",
+          "line": 15
+        },
+        {
+          "color": "yellow",
+          "line": 16
+        },
+        {
+          "color": "violet",
+          "line": 17
+        },
+        {
+          "color": "indigo",
+          "line": 20
+        },
+        {
+          "color": "cyan",
+          "line": 21
+        },
+        {
+          "color": "lime",
+          "line": 22
+        },
+        {
+          "color": "fuchsia",
+          "line": 24
+        },
+        {
+          "color": "pink",
+          "line": 25
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 22,
+      "imports": 0,
+      "commentDensity": "29.03",
+      "codeDensity": "70.97",
+      "blankPercentage": "16.22",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/indigo.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/indigo.ts",
+      "totalLines": 138,
+      "codeLines": 127,
+      "commentLines": 9,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 6,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "indigo",
+          "line": 9
+        },
+        {
+          "color": "Indigo",
+          "line": 10
+        },
+        {
+          "color": "Indigo",
+          "line": 33
+        },
+        {
+          "color": "Blue",
+          "line": 34
+        },
+        {
+          "color": "Violet",
+          "line": 35
+        },
+        {
+          "color": "Purple",
+          "line": 36
+        },
+        {
+          "color": "Cyan",
+          "line": 37
+        },
+        {
+          "color": "Indigo",
+          "line": 38
+        },
+        {
+          "color": "Blue",
+          "line": 39
+        },
+        {
+          "color": "Magenta",
+          "line": 40
+        },
+        {
+          "color": "Violet",
+          "line": 41
+        },
+        {
+          "color": "Indigo",
+          "line": 42
+        },
+        {
+          "color": "Indigo",
+          "line": 43
+        },
+        {
+          "color": "Lavender",
+          "line": 44
+        },
+        {
+          "color": "Indigo",
+          "line": 57
+        },
+        {
+          "color": "Blue",
+          "line": 58
+        },
+        {
+          "color": "Violet",
+          "line": 59
+        },
+        {
+          "color": "Purple",
+          "line": 60
+        },
+        {
+          "color": "Indigo",
+          "line": 120
+        },
+        {
+          "color": "Blue",
+          "line": 121
+        },
+        {
+          "color": "Violet",
+          "line": 122
+        },
+        {
+          "color": "Purple",
+          "line": 123
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "6.62",
+      "codeDensity": "93.38",
+      "blankPercentage": "1.45",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/lime.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/lime.ts",
+      "totalLines": 138,
+      "codeLines": 127,
+      "commentLines": 9,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 6,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "lime",
+          "line": 9
+        },
+        {
+          "color": "Lime",
+          "line": 10
+        },
+        {
+          "color": "Lime",
+          "line": 33
+        },
+        {
+          "color": "Green",
+          "line": 34
+        },
+        {
+          "color": "Yellow",
+          "line": 35
+        },
+        {
+          "color": "Teal",
+          "line": 37
+        },
+        {
+          "color": "Lime",
+          "line": 38
+        },
+        {
+          "color": "Green",
+          "line": 39
+        },
+        {
+          "color": "Orange",
+          "line": 40
+        },
+        {
+          "color": "Lime",
+          "line": 42
+        },
+        {
+          "color": "Lime",
+          "line": 43
+        },
+        {
+          "color": "Olive",
+          "line": 44
+        },
+        {
+          "color": "Lime",
+          "line": 57
+        },
+        {
+          "color": "Green",
+          "line": 58
+        },
+        {
+          "color": "Yellow",
+          "line": 59
+        },
+        {
+          "color": "Lime",
+          "line": 120
+        },
+        {
+          "color": "Green",
+          "line": 121
+        },
+        {
+          "color": "Yellow",
+          "line": 122
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "6.62",
+      "codeDensity": "93.38",
+      "blankPercentage": "1.45",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/neutral.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/neutral.ts",
+      "totalLines": 139,
+      "codeLines": 127,
+      "commentLines": 9,
+      "blankLines": 3,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 6,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "white",
+          "line": 12
+        },
+        {
+          "color": "black",
+          "line": 13
+        },
+        {
+          "color": "Rose",
+          "line": 34
+        },
+        {
+          "color": "Indigo",
+          "line": 37
+        },
+        {
+          "color": "Cyan",
+          "line": 38
+        },
+        {
+          "color": "Violet",
+          "line": 39
+        },
+        {
+          "color": "Orange",
+          "line": 40
+        },
+        {
+          "color": "Lime",
+          "line": 41
+        },
+        {
+          "color": "Teal",
+          "line": 42
+        },
+        {
+          "color": "Pink",
+          "line": 43
+        },
+        {
+          "color": "Brown",
+          "line": 44
+        },
+        {
+          "color": "white",
+          "line": 54
+        },
+        {
+          "color": "black",
+          "line": 75
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "6.62",
+      "codeDensity": "93.38",
+      "blankPercentage": "2.16",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/orange.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/orange.ts",
+      "totalLines": 140,
+      "codeLines": 129,
+      "commentLines": 9,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 6,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "orange",
+          "line": 9
+        },
+        {
+          "color": "Orange",
+          "line": 10
+        },
+        {
+          "color": "Orange",
+          "line": 33
+        },
+        {
+          "color": "Yellow",
+          "line": 35
+        },
+        {
+          "color": "Red",
+          "line": 36
+        },
+        {
+          "color": "Orange",
+          "line": 36
+        },
+        {
+          "color": "Red",
+          "line": 37
+        },
+        {
+          "color": "Orange",
+          "line": 38
+        },
+        {
+          "color": "Teal",
+          "line": 40
+        },
+        {
+          "color": "Cyan",
+          "line": 41
+        },
+        {
+          "color": "Orange",
+          "line": 42
+        },
+        {
+          "color": "Orange",
+          "line": 43
+        },
+        {
+          "color": "Orange",
+          "line": 57
+        },
+        {
+          "color": "Red",
+          "line": 59
+        },
+        {
+          "color": "Yellow",
+          "line": 60
+        },
+        {
+          "color": "Orange",
+          "line": 121
+        },
+        {
+          "color": "Red",
+          "line": 123
+        },
+        {
+          "color": "Yellow",
+          "line": 124
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "6.52",
+      "codeDensity": "93.48",
+      "blankPercentage": "1.43",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/pink.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/pink.ts",
+      "totalLines": 138,
+      "codeLines": 127,
+      "commentLines": 9,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 6,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "pink",
+          "line": 9
+        },
+        {
+          "color": "Pink",
+          "line": 10
+        },
+        {
+          "color": "Pink",
+          "line": 33
+        },
+        {
+          "color": "Rose",
+          "line": 34
+        },
+        {
+          "color": "Fuchsia",
+          "line": 35
+        },
+        {
+          "color": "Purple",
+          "line": 36
+        },
+        {
+          "color": "Red",
+          "line": 37
+        },
+        {
+          "color": "Orange",
+          "line": 37
+        },
+        {
+          "color": "Pink",
+          "line": 38
+        },
+        {
+          "color": "Pink",
+          "line": 39
+        },
+        {
+          "color": "Cyan",
+          "line": 40
+        },
+        {
+          "color": "Pink",
+          "line": 42
+        },
+        {
+          "color": "Pink",
+          "line": 43
+        },
+        {
+          "color": "Lavender",
+          "line": 44
+        },
+        {
+          "color": "Pink",
+          "line": 44
+        },
+        {
+          "color": "Pink",
+          "line": 57
+        },
+        {
+          "color": "Rose",
+          "line": 58
+        },
+        {
+          "color": "Fuchsia",
+          "line": 59
+        },
+        {
+          "color": "Purple",
+          "line": 60
+        },
+        {
+          "color": "Pink",
+          "line": 120
+        },
+        {
+          "color": "Rose",
+          "line": 121
+        },
+        {
+          "color": "Fuchsia",
+          "line": 122
+        },
+        {
+          "color": "Purple",
+          "line": 123
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "6.62",
+      "codeDensity": "93.38",
+      "blankPercentage": "1.45",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/red.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/red.ts",
+      "totalLines": 138,
+      "codeLines": 127,
+      "commentLines": 9,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 6,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "red",
+          "line": 9
+        },
+        {
+          "color": "Red",
+          "line": 10
+        },
+        {
+          "color": "Red",
+          "line": 33
+        },
+        {
+          "color": "Orange",
+          "line": 34
+        },
+        {
+          "color": "Rose",
+          "line": 35
+        },
+        {
+          "color": "Pink",
+          "line": 36
+        },
+        {
+          "color": "Red",
+          "line": 38
+        },
+        {
+          "color": "Red",
+          "line": 39
+        },
+        {
+          "color": "Magenta",
+          "line": 40
+        },
+        {
+          "color": "Maroon",
+          "line": 42
+        },
+        {
+          "color": "Orange",
+          "line": 43
+        },
+        {
+          "color": "Coral",
+          "line": 44
+        },
+        {
+          "color": "Red",
+          "line": 57
+        },
+        {
+          "color": "Orange",
+          "line": 58
+        },
+        {
+          "color": "Rose",
+          "line": 59
+        },
+        {
+          "color": "Pink",
+          "line": 60
+        },
+        {
+          "color": "Red",
+          "line": 120
+        },
+        {
+          "color": "Orange",
+          "line": 121
+        },
+        {
+          "color": "Rose",
+          "line": 122
+        },
+        {
+          "color": "Pink",
+          "line": 123
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "6.62",
+      "codeDensity": "93.38",
+      "blankPercentage": "1.45",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/rose.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/rose.ts",
+      "totalLines": 138,
+      "codeLines": 127,
+      "commentLines": 9,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 6,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "rose",
+          "line": 9
+        },
+        {
+          "color": "Rose",
+          "line": 10
+        },
+        {
+          "color": "Rose",
+          "line": 33
+        },
+        {
+          "color": "Pink",
+          "line": 34
+        },
+        {
+          "color": "Red",
+          "line": 35
+        },
+        {
+          "color": "Red",
+          "line": 36
+        },
+        {
+          "color": "Orange",
+          "line": 36
+        },
+        {
+          "color": "Fuchsia",
+          "line": 37
+        },
+        {
+          "color": "Rose",
+          "line": 38
+        },
+        {
+          "color": "Rose",
+          "line": 39
+        },
+        {
+          "color": "Teal",
+          "line": 40
+        },
+        {
+          "color": "Blue",
+          "line": 41
+        },
+        {
+          "color": "Rose",
+          "line": 42
+        },
+        {
+          "color": "Rose",
+          "line": 43
+        },
+        {
+          "color": "Rose",
+          "line": 57
+        },
+        {
+          "color": "Pink",
+          "line": 58
+        },
+        {
+          "color": "Red",
+          "line": 59
+        },
+        {
+          "color": "Fuchsia",
+          "line": 60
+        },
+        {
+          "color": "Rose",
+          "line": 120
+        },
+        {
+          "color": "Pink",
+          "line": 121
+        },
+        {
+          "color": "Red",
+          "line": 122
+        },
+        {
+          "color": "Fuchsia",
+          "line": 123
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "6.62",
+      "codeDensity": "93.38",
+      "blankPercentage": "1.45",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/slate.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/slate.ts",
+      "totalLines": 141,
+      "codeLines": 129,
+      "commentLines": 10,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 7,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "Blue",
+          "line": 34
+        },
+        {
+          "color": "Indigo",
+          "line": 35
+        },
+        {
+          "color": "Teal",
+          "line": 36
+        },
+        {
+          "color": "Gray",
+          "line": 39
+        },
+        {
+          "color": "Rose",
+          "line": 40
+        },
+        {
+          "color": "Blue",
+          "line": 43
+        },
+        {
+          "color": "Blue",
+          "line": 57
+        },
+        {
+          "color": "gray",
+          "line": 57
+        },
+        {
+          "color": "Violet",
+          "line": 58
+        },
+        {
+          "color": "gray",
+          "line": 58
+        },
+        {
+          "color": "Cyan",
+          "line": 59
+        },
+        {
+          "color": "gray",
+          "line": 59
+        },
+        {
+          "color": "Pink",
+          "line": 60
+        },
+        {
+          "color": "gray",
+          "line": 60
+        },
+        {
+          "color": "Blue",
+          "line": 122
+        },
+        {
+          "color": "gray",
+          "line": 122
+        },
+        {
+          "color": "Violet",
+          "line": 123
+        },
+        {
+          "color": "gray",
+          "line": 123
+        },
+        {
+          "color": "Cyan",
+          "line": 124
+        },
+        {
+          "color": "gray",
+          "line": 124
+        },
+        {
+          "color": "Pink",
+          "line": 125
+        },
+        {
+          "color": "gray",
+          "line": 125
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "7.19",
+      "codeDensity": "92.81",
+      "blankPercentage": "1.42",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/stone.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/stone.ts",
+      "totalLines": 138,
+      "codeLines": 127,
+      "commentLines": 9,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 6,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "Orange",
+          "line": 34
+        },
+        {
+          "color": "Lime",
+          "line": 36
+        },
+        {
+          "color": "Green",
+          "line": 37
+        },
+        {
+          "color": "Gray",
+          "line": 39
+        },
+        {
+          "color": "Blue",
+          "line": 40
+        },
+        {
+          "color": "Purple",
+          "line": 41
+        },
+        {
+          "color": "Blue",
+          "line": 57
+        },
+        {
+          "color": "gray",
+          "line": 57
+        },
+        {
+          "color": "Violet",
+          "line": 58
+        },
+        {
+          "color": "gray",
+          "line": 58
+        },
+        {
+          "color": "Cyan",
+          "line": 59
+        },
+        {
+          "color": "gray",
+          "line": 59
+        },
+        {
+          "color": "Pink",
+          "line": 60
+        },
+        {
+          "color": "gray",
+          "line": 60
+        },
+        {
+          "color": "black",
+          "line": 75
+        },
+        {
+          "color": "gray",
+          "line": 77
+        },
+        {
+          "color": "brown",
+          "line": 77
+        },
+        {
+          "color": "Blue",
+          "line": 120
+        },
+        {
+          "color": "Violet",
+          "line": 121
+        },
+        {
+          "color": "Cyan",
+          "line": 122
+        },
+        {
+          "color": "Pink",
+          "line": 123
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "6.62",
+      "codeDensity": "93.38",
+      "blankPercentage": "1.45",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/violet.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/violet.ts",
+      "totalLines": 136,
+      "codeLines": 127,
+      "commentLines": 7,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 4,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "violet",
+          "line": 9
+        },
+        {
+          "color": "Violet",
+          "line": 10
+        },
+        {
+          "color": "Violet",
+          "line": 33
+        },
+        {
+          "color": "Purple",
+          "line": 34
+        },
+        {
+          "color": "Indigo",
+          "line": 35
+        },
+        {
+          "color": "Magenta",
+          "line": 36
+        },
+        {
+          "color": "Gold",
+          "line": 37
+        },
+        {
+          "color": "Violet",
+          "line": 38
+        },
+        {
+          "color": "Teal",
+          "line": 40
+        },
+        {
+          "color": "Green",
+          "line": 41
+        },
+        {
+          "color": "Violet",
+          "line": 42
+        },
+        {
+          "color": "Violet",
+          "line": 43
+        },
+        {
+          "color": "Lavender",
+          "line": 44
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "5.22",
+      "codeDensity": "94.78",
+      "blankPercentage": "1.47",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/corecolors/yellow.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/corecolors/yellow.ts",
+      "totalLines": 138,
+      "codeLines": 127,
+      "commentLines": 9,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 3,
+      "singleLineComments": 6,
+      "multiLineCommentBlocks": 1,
+      "colors": [
+        {
+          "color": "yellow",
+          "line": 9
+        },
+        {
+          "color": "Yellow",
+          "line": 10
+        },
+        {
+          "color": "Yellow",
+          "line": 33
+        },
+        {
+          "color": "Orange",
+          "line": 35
+        },
+        {
+          "color": "Lime",
+          "line": 36
+        },
+        {
+          "color": "Green",
+          "line": 37
+        },
+        {
+          "color": "Gold",
+          "line": 38
+        },
+        {
+          "color": "Yellow",
+          "line": 39
+        },
+        {
+          "color": "Blue",
+          "line": 40
+        },
+        {
+          "color": "Violet",
+          "line": 41
+        },
+        {
+          "color": "Yellow",
+          "line": 42
+        },
+        {
+          "color": "Yellow",
+          "line": 43
+        },
+        {
+          "color": "Brown",
+          "line": 44
+        },
+        {
+          "color": "Yellow",
+          "line": 57
+        },
+        {
+          "color": "Lime",
+          "line": 59
+        },
+        {
+          "color": "Orange",
+          "line": 60
+        },
+        {
+          "color": "Yellow",
+          "line": 120
+        },
+        {
+          "color": "Lime",
+          "line": 122
+        },
+        {
+          "color": "Orange",
+          "line": 123
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "6.62",
+      "codeDensity": "93.38",
+      "blankPercentage": "1.45",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/css-generator.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/css-generator.ts",
+      "totalLines": 155,
+      "codeLines": 102,
+      "commentLines": 35,
+      "blankLines": 18,
+      "jsdocBlocks": 4,
+      "jsdocLines": 21,
+      "singleLineComments": 14,
+      "multiLineCommentBlocks": 4,
+      "colors": [],
+      "functions": 3,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 1,
+      "commentDensity": "25.55",
+      "codeDensity": "74.45",
+      "blankPercentage": "11.61",
+      "documentationCoverage": "133.33"
+    },
+    {
+      "path": "config/theme/icons.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/icons.ts",
+      "totalLines": 12,
+      "codeLines": 7,
+      "commentLines": 2,
+      "blankLines": 3,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 2,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "22.22",
+      "codeDensity": "77.78",
+      "blankPercentage": "25.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/index.ts",
+      "totalLines": 53,
+      "codeLines": 45,
+      "commentLines": 4,
+      "blankLines": 4,
+      "jsdocBlocks": 1,
+      "jsdocLines": 4,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 19,
+      "imports": 11,
+      "commentDensity": "8.16",
+      "codeDensity": "91.84",
+      "blankPercentage": "7.55",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/input-formatters.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/input-formatters.ts",
+      "totalLines": 392,
+      "codeLines": 294,
+      "commentLines": 48,
+      "blankLines": 50,
+      "jsdocBlocks": 6,
+      "jsdocLines": 48,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 6,
+      "colors": [],
+      "functions": 29,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 14,
+      "imports": 0,
+      "commentDensity": "14.04",
+      "codeDensity": "85.96",
+      "blankPercentage": "12.76",
+      "documentationCoverage": "20.69"
+    },
+    {
+      "path": "config/theme/input-styles.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/input-styles.ts",
+      "totalLines": 217,
+      "codeLines": 175,
+      "commentLines": 15,
+      "blankLines": 27,
+      "jsdocBlocks": 3,
+      "jsdocLines": 15,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 3,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 12,
+      "imports": 0,
+      "commentDensity": "7.89",
+      "codeDensity": "92.11",
+      "blankPercentage": "12.44",
+      "documentationCoverage": "300.00"
+    },
+    {
+      "path": "config/theme/input-validators.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/input-validators.ts",
+      "totalLines": 245,
+      "codeLines": 173,
+      "commentLines": 27,
+      "blankLines": 45,
+      "jsdocBlocks": 4,
+      "jsdocLines": 27,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 4,
+      "colors": [],
+      "functions": 5,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 17,
+      "imports": 1,
+      "commentDensity": "13.50",
+      "codeDensity": "86.50",
+      "blankPercentage": "18.37",
+      "documentationCoverage": "80.00"
+    },
+    {
+      "path": "config/theme/radius.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/radius.ts",
+      "totalLines": 27,
+      "codeLines": 12,
+      "commentLines": 13,
+      "blankLines": 2,
+      "jsdocBlocks": 10,
+      "jsdocLines": 13,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 10,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "52.00",
+      "codeDensity": "48.00",
+      "blankPercentage": "7.41",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/scrollbar.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/scrollbar.ts",
+      "totalLines": 34,
+      "codeLines": 18,
+      "commentLines": 12,
+      "blankLines": 4,
+      "jsdocBlocks": 6,
+      "jsdocLines": 12,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 6,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 1,
+      "commentDensity": "40.00",
+      "codeDensity": "60.00",
+      "blankPercentage": "11.76",
+      "documentationCoverage": "600.00"
+    },
+    {
+      "path": "config/theme/shadows.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/shadows.ts",
+      "totalLines": 32,
+      "codeLines": 15,
+      "commentLines": 15,
+      "blankLines": 2,
+      "jsdocBlocks": 11,
+      "jsdocLines": 14,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 11,
+      "colors": [
+        {
+          "color": "rgba(0,0,0,0.37)",
+          "line": 28
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "50.00",
+      "codeDensity": "50.00",
+      "blankPercentage": "6.25",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/surfaces.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/surfaces.ts",
+      "totalLines": 30,
+      "codeLines": 13,
+      "commentLines": 15,
+      "blankLines": 2,
+      "jsdocBlocks": 10,
+      "jsdocLines": 13,
+      "singleLineComments": 2,
+      "multiLineCommentBlocks": 10,
+      "colors": [
+        {
+          "color": "black",
+          "line": 22
+        },
+        {
+          "color": "white",
+          "line": 22
+        },
+        {
+          "color": "white",
+          "line": 24
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "53.57",
+      "codeDensity": "46.43",
+      "blankPercentage": "6.67",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/theme-provider.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/theme-provider.tsx",
+      "totalLines": 6,
+      "codeLines": 1,
+      "commentLines": 3,
+      "blankLines": 2,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 3,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "75.00",
+      "codeDensity": "25.00",
+      "blankPercentage": "33.33",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/themes.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/themes.ts",
+      "totalLines": 55,
+      "codeLines": 39,
+      "commentLines": 12,
+      "blankLines": 4,
+      "jsdocBlocks": 3,
+      "jsdocLines": 12,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 3,
+      "colors": [
+        {
+          "color": "red",
+          "line": 2
+        },
+        {
+          "color": "orange",
+          "line": 3
+        },
+        {
+          "color": "yellow",
+          "line": 4
+        },
+        {
+          "color": "lime",
+          "line": 5
+        },
+        {
+          "color": "green",
+          "line": 6
+        },
+        {
+          "color": "cyan",
+          "line": 8
+        },
+        {
+          "color": "blue",
+          "line": 9
+        },
+        {
+          "color": "indigo",
+          "line": 10
+        },
+        {
+          "color": "violet",
+          "line": 11
+        },
+        {
+          "color": "fuchsia",
+          "line": 12
+        },
+        {
+          "color": "pink",
+          "line": 13
+        },
+        {
+          "color": "rose",
+          "line": 14
+        }
+      ],
+      "functions": 2,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 17,
+      "commentDensity": "23.53",
+      "codeDensity": "76.47",
+      "blankPercentage": "7.27",
+      "documentationCoverage": "150.00"
+    },
+    {
+      "path": "config/theme/types.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/types.ts",
+      "totalLines": 123,
+      "codeLines": 97,
+      "commentLines": 24,
+      "blankLines": 2,
+      "jsdocBlocks": 6,
+      "jsdocLines": 11,
+      "singleLineComments": 13,
+      "multiLineCommentBlocks": 6,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "19.83",
+      "codeDensity": "80.17",
+      "blankPercentage": "1.63",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/typography.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/typography.ts",
+      "totalLines": 242,
+      "codeLines": 48,
+      "commentLines": 163,
+      "blankLines": 31,
+      "jsdocBlocks": 33,
+      "jsdocLines": 163,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 33,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 18,
+      "imports": 0,
+      "commentDensity": "77.25",
+      "codeDensity": "22.75",
+      "blankPercentage": "12.81",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "config/theme/use-theme.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/use-theme.ts",
+      "totalLines": 40,
+      "codeLines": 25,
+      "commentLines": 8,
+      "blankLines": 7,
+      "jsdocBlocks": 1,
+      "jsdocLines": 4,
+      "singleLineComments": 4,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 3,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "24.24",
+      "codeDensity": "75.76",
+      "blankPercentage": "17.50",
+      "documentationCoverage": "33.33"
+    },
+    {
+      "path": "config/theme/z-index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/config/theme/z-index.ts",
+      "totalLines": 43,
+      "codeLines": 20,
+      "commentLines": 15,
+      "blankLines": 8,
+      "jsdocBlocks": 5,
+      "jsdocLines": 10,
+      "singleLineComments": 5,
+      "multiLineCommentBlocks": 5,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "42.86",
+      "codeDensity": "57.14",
+      "blankPercentage": "18.60",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "core/format/format.test.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/core/format/format.test.ts",
+      "totalLines": 71,
+      "codeLines": 57,
+      "commentLines": 2,
+      "blankLines": 12,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 2,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 16,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 0,
+      "imports": 2,
+      "commentDensity": "3.39",
+      "codeDensity": "96.61",
+      "blankPercentage": "16.90",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "core/format/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/core/format/index.ts",
+      "totalLines": 65,
+      "codeLines": 26,
+      "commentLines": 34,
+      "blankLines": 5,
+      "jsdocBlocks": 5,
+      "jsdocLines": 34,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 5,
+      "colors": [],
+      "functions": 5,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 5,
+      "imports": 0,
+      "commentDensity": "56.67",
+      "codeDensity": "43.33",
+      "blankPercentage": "7.69",
+      "documentationCoverage": "100.00"
+    },
+    {
+      "path": "core/storage/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/core/storage/index.ts",
+      "totalLines": 93,
+      "codeLines": 43,
+      "commentLines": 37,
+      "blankLines": 13,
+      "jsdocBlocks": 6,
+      "jsdocLines": 37,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 6,
+      "colors": [],
+      "functions": 5,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 5,
+      "imports": 0,
+      "commentDensity": "46.25",
+      "codeDensity": "53.75",
+      "blankPercentage": "13.98",
+      "documentationCoverage": "120.00"
+    },
+    {
+      "path": "core/storage/storage.test.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/core/storage/storage.test.ts",
+      "totalLines": 33,
+      "codeLines": 27,
+      "commentLines": 0,
+      "blankLines": 6,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 6,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 0,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "18.18",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "core/utils/cn.test.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/core/utils/cn.test.ts",
+      "totalLines": 26,
+      "codeLines": 20,
+      "commentLines": 0,
+      "blankLines": 6,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 6,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 0,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "23.08",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "core/utils/cn.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/core/utils/cn.ts",
+      "totalLines": 14,
+      "codeLines": 5,
+      "commentLines": 7,
+      "blankLines": 2,
+      "jsdocBlocks": 1,
+      "jsdocLines": 7,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "58.33",
+      "codeDensity": "41.67",
+      "blankPercentage": "14.29",
+      "documentationCoverage": "100.00"
+    },
+    {
+      "path": "core/utils/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/core/utils/index.ts",
+      "totalLines": 2,
+      "codeLines": 1,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "50.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "core/validation/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/core/validation/index.ts",
+      "totalLines": 67,
+      "codeLines": 21,
+      "commentLines": 38,
+      "blankLines": 8,
+      "jsdocBlocks": 7,
+      "jsdocLines": 38,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 7,
+      "colors": [],
+      "functions": 3,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 7,
+      "imports": 1,
+      "commentDensity": "64.41",
+      "codeDensity": "35.59",
+      "blankPercentage": "11.94",
+      "documentationCoverage": "233.33"
+    },
+    {
+      "path": "core/validation/validation.test.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/core/validation/validation.test.ts",
+      "totalLines": 76,
+      "codeLines": 62,
+      "commentLines": 0,
+      "blankLines": 14,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 18,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 0,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "18.42",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "design-system/composites/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/design-system/composites/index.ts",
+      "totalLines": 8,
+      "codeLines": 6,
+      "commentLines": 1,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 6,
+      "imports": 0,
+      "commentDensity": "14.29",
+      "codeDensity": "85.71",
+      "blankPercentage": "12.50",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "design-system/composites/sidebar/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/design-system/composites/sidebar/index.ts",
+      "totalLines": 3,
+      "codeLines": 2,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "33.33",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "design-system/composites/smart-input/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/design-system/composites/smart-input/index.ts",
+      "totalLines": 4,
+      "codeLines": 3,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "25.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "design-system/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/design-system/index.ts",
+      "totalLines": 5,
+      "codeLines": 3,
+      "commentLines": 1,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 0,
+      "commentDensity": "25.00",
+      "codeDensity": "75.00",
+      "blankPercentage": "20.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "design-system/primitives/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/design-system/primitives/index.ts",
+      "totalLines": 27,
+      "codeLines": 23,
+      "commentLines": 2,
+      "blankLines": 2,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 2,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 23,
+      "imports": 0,
+      "commentDensity": "8.00",
+      "codeDensity": "92.00",
+      "blankPercentage": "7.41",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "design-system/tokens/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/design-system/tokens/index.ts",
+      "totalLines": 3,
+      "codeLines": 1,
+      "commentLines": 1,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "50.00",
+      "codeDensity": "50.00",
+      "blankPercentage": "33.33",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "features/command-menu/command-menu.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/command-menu/command-menu.tsx",
+      "totalLines": 415,
+      "codeLines": 330,
+      "commentLines": 64,
+      "blankLines": 21,
+      "jsdocBlocks": 8,
+      "jsdocLines": 64,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 8,
+      "colors": [
+        {
+          "color": "white",
+          "line": 165
+        },
+        {
+          "color": "white",
+          "line": 166
+        }
+      ],
+      "functions": 28,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 7,
+      "commentDensity": "16.24",
+      "codeDensity": "83.76",
+      "blankPercentage": "5.06",
+      "documentationCoverage": "28.57"
+    },
+    {
+      "path": "features/command-menu/draggable-tool-window.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/command-menu/draggable-tool-window.tsx",
+      "totalLines": 373,
+      "codeLines": 298,
+      "commentLines": 33,
+      "blankLines": 42,
+      "jsdocBlocks": 3,
+      "jsdocLines": 22,
+      "singleLineComments": 11,
+      "multiLineCommentBlocks": 3,
+      "colors": [
+        {
+          "color": "rgba(0,0,0,0.45)",
+          "line": 200
+        },
+        {
+          "color": "rgba(0,0,0,0.3)",
+          "line": 200
+        },
+        {
+          "color": "rgba(15,23,42,0.18)",
+          "line": 201
+        },
+        {
+          "color": "rgba(15,23,42,0.08)",
+          "line": 201
+        },
+        {
+          "color": "rgba(15, 23, 42, 0.08)",
+          "line": 212
+        },
+        {
+          "color": "white",
+          "line": 309
+        },
+        {
+          "color": "white",
+          "line": 321
+        },
+        {
+          "color": "white",
+          "line": 321
+        },
+        {
+          "color": "white",
+          "line": 333
+        },
+        {
+          "color": "red",
+          "line": 342
+        },
+        {
+          "color": "red",
+          "line": 342
+        },
+        {
+          "color": "white",
+          "line": 365
+        },
+        {
+          "color": "white",
+          "line": 367
+        }
+      ],
+      "functions": 27,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 6,
+      "commentDensity": "9.97",
+      "codeDensity": "90.03",
+      "blankPercentage": "11.26",
+      "documentationCoverage": "11.11"
+    },
+    {
+      "path": "features/command-menu/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/command-menu/index.ts",
+      "totalLines": 3,
+      "codeLines": 2,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "33.33",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "features/command-menu/tool-window-manager.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/command-menu/tool-window-manager.tsx",
+      "totalLines": 28,
+      "codeLines": 22,
+      "commentLines": 0,
+      "blankLines": 6,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 3,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 4,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "21.43",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "features/command-menu/tools.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/command-menu/tools.tsx",
+      "totalLines": 47,
+      "codeLines": 43,
+      "commentLines": 0,
+      "blankLines": 4,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 3,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "8.51",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "features/dashboard/dashboard-charts.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/dashboard/dashboard-charts.tsx",
+      "totalLines": 410,
+      "codeLines": 388,
+      "commentLines": 5,
+      "blankLines": 17,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 5,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 8,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 5,
+      "imports": 4,
+      "commentDensity": "1.27",
+      "codeDensity": "98.73",
+      "blankPercentage": "4.15",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "features/dashboard/dashboard-skeleton.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/dashboard/dashboard-skeleton.tsx",
+      "totalLines": 24,
+      "codeLines": 22,
+      "commentLines": 0,
+      "blankLines": 2,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "8.33",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "features/dashboard/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/dashboard/index.ts",
+      "totalLines": 10,
+      "codeLines": 9,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "10.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "features/dashboard/section-cards.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/dashboard/section-cards.tsx",
+      "totalLines": 112,
+      "codeLines": 108,
+      "commentLines": 0,
+      "blankLines": 4,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 5,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "3.57",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "features/data-table/data-table.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/data-table/data-table.tsx",
+      "totalLines": 840,
+      "codeLines": 787,
+      "commentLines": 33,
+      "blankLines": 20,
+      "jsdocBlocks": 3,
+      "jsdocLines": 33,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 3,
+      "colors": [
+        {
+          "color": "green",
+          "line": 228
+        },
+        {
+          "color": "green",
+          "line": 228
+        }
+      ],
+      "functions": 42,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 8,
+      "exports": 2,
+      "imports": 23,
+      "commentDensity": "4.02",
+      "codeDensity": "95.98",
+      "blankPercentage": "2.38",
+      "documentationCoverage": "7.14"
+    },
+    {
+      "path": "features/data-table/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/data-table/index.ts",
+      "totalLines": 2,
+      "codeLines": 1,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "50.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "features/design-system/components/background-controls.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/design-system/components/background-controls.tsx",
+      "totalLines": 233,
+      "codeLines": 201,
+      "commentLines": 20,
+      "blankLines": 12,
+      "jsdocBlocks": 3,
+      "jsdocLines": 20,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 3,
+      "colors": [],
+      "functions": 12,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 6,
+      "commentDensity": "9.05",
+      "codeDensity": "90.95",
+      "blankPercentage": "5.15",
+      "documentationCoverage": "25.00"
+    },
+    {
+      "path": "features/design-system/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/design-system/index.ts",
+      "totalLines": 2,
+      "codeLines": 1,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "50.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "features/keyboard-shortcuts/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/keyboard-shortcuts/index.ts",
+      "totalLines": 2,
+      "codeLines": 1,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "50.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "features/keyboard-shortcuts/keyboard-shortcuts.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/keyboard-shortcuts/keyboard-shortcuts.tsx",
+      "totalLines": 71,
+      "codeLines": 64,
+      "commentLines": 1,
+      "blankLines": 6,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 5,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 4,
+      "commentDensity": "1.54",
+      "codeDensity": "98.46",
+      "blankPercentage": "8.45",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "features/theme-customizer/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/theme-customizer/index.ts",
+      "totalLines": 2,
+      "codeLines": 1,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "50.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "features/theme-customizer/theme-customizer.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/theme-customizer/theme-customizer.tsx",
+      "totalLines": 188,
+      "codeLines": 142,
+      "commentLines": 22,
+      "blankLines": 24,
+      "jsdocBlocks": 1,
+      "jsdocLines": 8,
+      "singleLineComments": 14,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 18,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 6,
+      "commentDensity": "13.41",
+      "codeDensity": "86.59",
+      "blankPercentage": "12.77",
+      "documentationCoverage": "5.56"
+    },
+    {
+      "path": "features/tools/aspect-ratio.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/tools/aspect-ratio.tsx",
+      "totalLines": 110,
+      "codeLines": 81,
+      "commentLines": 20,
+      "blankLines": 9,
+      "jsdocBlocks": 2,
+      "jsdocLines": 20,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 2,
+      "colors": [
+        {
+          "color": "white",
+          "line": 51
+        },
+        {
+          "color": "black",
+          "line": 51
+        },
+        {
+          "color": "white",
+          "line": 101
+        },
+        {
+          "color": "white",
+          "line": 101
+        }
+      ],
+      "functions": 6,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "19.80",
+      "codeDensity": "80.20",
+      "blankPercentage": "8.18",
+      "documentationCoverage": "33.33"
+    },
+    {
+      "path": "features/tools/calculator.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/tools/calculator.tsx",
+      "totalLines": 180,
+      "codeLines": 129,
+      "commentLines": 30,
+      "blankLines": 21,
+      "jsdocBlocks": 4,
+      "jsdocLines": 28,
+      "singleLineComments": 2,
+      "multiLineCommentBlocks": 4,
+      "colors": [
+        {
+          "color": "white",
+          "line": 148
+        }
+      ],
+      "functions": 14,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "18.87",
+      "codeDensity": "81.13",
+      "blankPercentage": "11.67",
+      "documentationCoverage": "28.57"
+    },
+    {
+      "path": "features/tools/color-converter.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/tools/color-converter.tsx",
+      "totalLines": 486,
+      "codeLines": 386,
+      "commentLines": 59,
+      "blankLines": 41,
+      "jsdocBlocks": 10,
+      "jsdocLines": 59,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 10,
+      "colors": [
+        {
+          "color": "#ffffff",
+          "line": 288
+        },
+        {
+          "color": "#000000",
+          "line": 289
+        },
+        {
+          "color": "rose",
+          "line": 295
+        },
+        {
+          "color": "#ffffff",
+          "line": 298
+        },
+        {
+          "color": "White",
+          "line": 298
+        },
+        {
+          "color": "#000000",
+          "line": 299
+        },
+        {
+          "color": "Black",
+          "line": 299
+        },
+        {
+          "color": "white",
+          "line": 366
+        },
+        {
+          "color": "#FFFFFF",
+          "line": 368
+        },
+        {
+          "color": "#ffffff",
+          "line": 369
+        },
+        {
+          "color": "#FFF",
+          "line": 370
+        },
+        {
+          "color": "white",
+          "line": 395
+        },
+        {
+          "color": "white",
+          "line": 415
+        },
+        {
+          "color": "rose",
+          "line": 426
+        },
+        {
+          "color": "rose",
+          "line": 426
+        },
+        {
+          "color": "white",
+          "line": 478
+        }
+      ],
+      "functions": 46,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 5,
+      "commentDensity": "13.26",
+      "codeDensity": "86.74",
+      "blankPercentage": "8.44",
+      "documentationCoverage": "21.74"
+    },
+    {
+      "path": "features/tools/emoji/emoji-category.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/tools/emoji/emoji-category.tsx",
+      "totalLines": 58,
+      "codeLines": 37,
+      "commentLines": 16,
+      "blankLines": 5,
+      "jsdocBlocks": 2,
+      "jsdocLines": 16,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 2,
+      "colors": [],
+      "functions": 4,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 4,
+      "commentDensity": "30.19",
+      "codeDensity": "69.81",
+      "blankPercentage": "8.62",
+      "documentationCoverage": "50.00"
+    },
+    {
+      "path": "features/tools/emoji/emoji-data.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/tools/emoji/emoji-data.ts",
+      "totalLines": 306,
+      "codeLines": 277,
+      "commentLines": 18,
+      "blankLines": 11,
+      "jsdocBlocks": 3,
+      "jsdocLines": 10,
+      "singleLineComments": 8,
+      "multiLineCommentBlocks": 3,
+      "colors": [
+        {
+          "color": "red",
+          "line": 115
+        },
+        {
+          "color": "Red",
+          "line": 186
+        },
+        {
+          "color": "yellow",
+          "line": 253
+        },
+        {
+          "color": "yellow",
+          "line": 254
+        },
+        {
+          "color": "Red",
+          "line": 264
+        },
+        {
+          "color": "Green",
+          "line": 267
+        },
+        {
+          "color": "Red",
+          "line": 289
+        }
+      ],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 4,
+      "imports": 0,
+      "commentDensity": "6.10",
+      "codeDensity": "93.90",
+      "blankPercentage": "3.59",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "features/tools/emoji/emoji-picker.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/tools/emoji/emoji-picker.tsx",
+      "totalLines": 108,
+      "codeLines": 71,
+      "commentLines": 26,
+      "blankLines": 11,
+      "jsdocBlocks": 4,
+      "jsdocLines": 25,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 4,
+      "colors": [],
+      "functions": 11,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 5,
+      "commentDensity": "26.80",
+      "codeDensity": "73.20",
+      "blankPercentage": "10.19",
+      "documentationCoverage": "36.36"
+    },
+    {
+      "path": "features/tools/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/tools/index.ts",
+      "totalLines": 11,
+      "codeLines": 10,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 10,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "9.09",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "features/tools/lorem-ipsum.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/tools/lorem-ipsum.tsx",
+      "totalLines": 95,
+      "codeLines": 63,
+      "commentLines": 21,
+      "blankLines": 11,
+      "jsdocBlocks": 3,
+      "jsdocLines": 19,
+      "singleLineComments": 2,
+      "multiLineCommentBlocks": 3,
+      "colors": [
+        {
+          "color": "white",
+          "line": 58
+        },
+        {
+          "color": "black",
+          "line": 59
+        },
+        {
+          "color": "white",
+          "line": 59
+        },
+        {
+          "color": "white",
+          "line": 60
+        },
+        {
+          "color": "white",
+          "line": 61
+        },
+        {
+          "color": "black",
+          "line": 72
+        },
+        {
+          "color": "white",
+          "line": 72
+        },
+        {
+          "color": "green",
+          "line": 80
+        },
+        {
+          "color": "white",
+          "line": 80
+        }
+      ],
+      "functions": 9,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "25.00",
+      "codeDensity": "75.00",
+      "blankPercentage": "11.58",
+      "documentationCoverage": "33.33"
+    },
+    {
+      "path": "features/tools/password-generator.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/tools/password-generator.tsx",
+      "totalLines": 266,
+      "codeLines": 243,
+      "commentLines": 0,
+      "blankLines": 23,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [
+        {
+          "color": "lime",
+          "line": 80
+        },
+        {
+          "color": "rose",
+          "line": 82
+        },
+        {
+          "color": "white",
+          "line": 132
+        },
+        {
+          "color": "white",
+          "line": 135
+        },
+        {
+          "color": "white",
+          "line": 141
+        },
+        {
+          "color": "white",
+          "line": 146
+        },
+        {
+          "color": "white",
+          "line": 153
+        },
+        {
+          "color": "white",
+          "line": 164
+        },
+        {
+          "color": "white",
+          "line": 170
+        },
+        {
+          "color": "white",
+          "line": 181
+        },
+        {
+          "color": "white",
+          "line": 193
+        },
+        {
+          "color": "white",
+          "line": 205
+        },
+        {
+          "color": "white",
+          "line": 214
+        },
+        {
+          "color": "white",
+          "line": 226
+        },
+        {
+          "color": "white",
+          "line": 252
+        },
+        {
+          "color": "white",
+          "line": 258
+        }
+      ],
+      "functions": 22,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 2,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "8.65",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "features/tools/stopwatch.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/tools/stopwatch.tsx",
+      "totalLines": 125,
+      "codeLines": 85,
+      "commentLines": 29,
+      "blankLines": 11,
+      "jsdocBlocks": 5,
+      "jsdocLines": 29,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 5,
+      "colors": [
+        {
+          "color": "red",
+          "line": 90
+        },
+        {
+          "color": "red",
+          "line": 90
+        },
+        {
+          "color": "red",
+          "line": 90
+        },
+        {
+          "color": "red",
+          "line": 90
+        },
+        {
+          "color": "white",
+          "line": 113
+        },
+        {
+          "color": "white",
+          "line": 115
+        },
+        {
+          "color": "white",
+          "line": 115
+        }
+      ],
+      "functions": 11,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "25.44",
+      "codeDensity": "74.56",
+      "blankPercentage": "8.80",
+      "documentationCoverage": "45.45"
+    },
+    {
+      "path": "features/tools/text-case.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/tools/text-case.tsx",
+      "totalLines": 134,
+      "codeLines": 86,
+      "commentLines": 38,
+      "blankLines": 10,
+      "jsdocBlocks": 4,
+      "jsdocLines": 38,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 4,
+      "colors": [
+        {
+          "color": "white",
+          "line": 87
+        },
+        {
+          "color": "red",
+          "line": 91
+        },
+        {
+          "color": "white",
+          "line": 91
+        },
+        {
+          "color": "white",
+          "line": 129
+        },
+        {
+          "color": "white",
+          "line": 129
+        },
+        {
+          "color": "white",
+          "line": 129
+        }
+      ],
+      "functions": 21,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "30.65",
+      "codeDensity": "69.35",
+      "blankPercentage": "7.46",
+      "documentationCoverage": "19.05"
+    },
+    {
+      "path": "features/tools/unit-converter.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/tools/unit-converter.tsx",
+      "totalLines": 656,
+      "codeLines": 529,
+      "commentLines": 82,
+      "blankLines": 45,
+      "jsdocBlocks": 10,
+      "jsdocLines": 82,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 10,
+      "colors": [
+        {
+          "color": "white",
+          "line": 224
+        },
+        {
+          "color": "white",
+          "line": 224
+        },
+        {
+          "color": "white",
+          "line": 360
+        },
+        {
+          "color": "white",
+          "line": 401
+        },
+        {
+          "color": "white",
+          "line": 422
+        },
+        {
+          "color": "white",
+          "line": 449
+        },
+        {
+          "color": "white",
+          "line": 452
+        },
+        {
+          "color": "white",
+          "line": 472
+        },
+        {
+          "color": "white",
+          "line": 508
+        },
+        {
+          "color": "white",
+          "line": 558
+        },
+        {
+          "color": "white",
+          "line": 567
+        },
+        {
+          "color": "white",
+          "line": 599
+        },
+        {
+          "color": "white",
+          "line": 642
+        }
+      ],
+      "functions": 49,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 5,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "13.42",
+      "codeDensity": "86.58",
+      "blankPercentage": "6.86",
+      "documentationCoverage": "20.41"
+    },
+    {
+      "path": "features/tools/uuid-generator.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/features/tools/uuid-generator.tsx",
+      "totalLines": 104,
+      "codeLines": 73,
+      "commentLines": 22,
+      "blankLines": 9,
+      "jsdocBlocks": 3,
+      "jsdocLines": 21,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 3,
+      "colors": [
+        {
+          "color": "white",
+          "line": 58
+        },
+        {
+          "color": "green",
+          "line": 76
+        },
+        {
+          "color": "white",
+          "line": 76
+        },
+        {
+          "color": "green",
+          "line": 76
+        },
+        {
+          "color": "white",
+          "line": 85
+        }
+      ],
+      "functions": 10,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "23.16",
+      "codeDensity": "76.84",
+      "blankPercentage": "8.65",
+      "documentationCoverage": "30.00"
+    },
+    {
+      "path": "hooks/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/hooks/index.ts",
+      "totalLines": 6,
+      "codeLines": 5,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 5,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "16.67",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "hooks/use-debounce.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/hooks/use-debounce.ts",
+      "totalLines": 40,
+      "codeLines": 13,
+      "commentLines": 22,
+      "blankLines": 5,
+      "jsdocBlocks": 1,
+      "jsdocLines": 22,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 4,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "62.86",
+      "codeDensity": "37.14",
+      "blankPercentage": "12.50",
+      "documentationCoverage": "25.00"
+    },
+    {
+      "path": "hooks/use-local-storage.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/hooks/use-local-storage.ts",
+      "totalLines": 48,
+      "codeLines": 19,
+      "commentLines": 25,
+      "blankLines": 4,
+      "jsdocBlocks": 2,
+      "jsdocLines": 25,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 2,
+      "colors": [],
+      "functions": 4,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "56.82",
+      "codeDensity": "43.18",
+      "blankPercentage": "8.33",
+      "documentationCoverage": "50.00"
+    },
+    {
+      "path": "hooks/use-media-query.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/hooks/use-media-query.ts",
+      "totalLines": 50,
+      "codeLines": 18,
+      "commentLines": 24,
+      "blankLines": 8,
+      "jsdocBlocks": 2,
+      "jsdocLines": 23,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 2,
+      "colors": [],
+      "functions": 4,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "57.14",
+      "codeDensity": "42.86",
+      "blankPercentage": "16.00",
+      "documentationCoverage": "50.00"
+    },
+    {
+      "path": "hooks/use-mobile.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/hooks/use-mobile.ts",
+      "totalLines": 40,
+      "codeLines": 15,
+      "commentLines": 20,
+      "blankLines": 5,
+      "jsdocBlocks": 2,
+      "jsdocLines": 20,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 2,
+      "colors": [],
+      "functions": 4,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "57.14",
+      "codeDensity": "42.86",
+      "blankPercentage": "12.50",
+      "documentationCoverage": "50.00"
+    },
+    {
+      "path": "hooks/use-smooth-scroll.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/hooks/use-smooth-scroll.ts",
+      "totalLines": 58,
+      "codeLines": 19,
+      "commentLines": 31,
+      "blankLines": 8,
+      "jsdocBlocks": 3,
+      "jsdocLines": 31,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 3,
+      "colors": [],
+      "functions": 2,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 1,
+      "commentDensity": "62.00",
+      "codeDensity": "38.00",
+      "blankPercentage": "13.79",
+      "documentationCoverage": "150.00"
+    },
+    {
+      "path": "infrastructure/api/client.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/infrastructure/api/client.ts",
+      "totalLines": 84,
+      "codeLines": 69,
+      "commentLines": 0,
+      "blankLines": 15,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 2,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "17.86",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "infrastructure/api/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/infrastructure/api/index.ts",
+      "totalLines": 2,
+      "codeLines": 1,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "50.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "infrastructure/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/infrastructure/index.ts",
+      "totalLines": 5,
+      "codeLines": 4,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 4,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "20.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "infrastructure/query/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/infrastructure/query/index.ts",
+      "totalLines": 3,
+      "codeLines": 2,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "33.33",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "infrastructure/query/query-client.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/infrastructure/query/query-client.ts",
+      "totalLines": 29,
+      "codeLines": 22,
+      "commentLines": 3,
+      "blankLines": 4,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 3,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 2,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 1,
+      "commentDensity": "12.00",
+      "codeDensity": "88.00",
+      "blankPercentage": "13.79",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "infrastructure/query/query-keys.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/infrastructure/query/query-keys.ts",
+      "totalLines": 17,
+      "codeLines": 9,
+      "commentLines": 7,
+      "blankLines": 1,
+      "jsdocBlocks": 1,
+      "jsdocLines": 7,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "43.75",
+      "codeDensity": "56.25",
+      "blankPercentage": "5.88",
+      "documentationCoverage": "100.00"
+    },
+    {
+      "path": "infrastructure/store/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/infrastructure/store/index.ts",
+      "totalLines": 3,
+      "codeLines": 2,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "33.33",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "infrastructure/store/sidebar-store.test.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/infrastructure/store/sidebar-store.test.ts",
+      "totalLines": 83,
+      "codeLines": 71,
+      "commentLines": 0,
+      "blankLines": 12,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 16,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 0,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "14.46",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "infrastructure/store/sidebar-store.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/infrastructure/store/sidebar-store.ts",
+      "totalLines": 26,
+      "codeLines": 23,
+      "commentLines": 0,
+      "blankLines": 3,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 7,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "11.54",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "infrastructure/store/theme-store.test.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/infrastructure/store/theme-store.test.ts",
+      "totalLines": 41,
+      "codeLines": 35,
+      "commentLines": 0,
+      "blankLines": 6,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [
+        {
+          "color": "red",
+          "line": 21
+        },
+        {
+          "color": "red",
+          "line": 23
+        },
+        {
+          "color": "blue",
+          "line": 27
+        },
+        {
+          "color": "blue",
+          "line": 29
+        },
+        {
+          "color": "violet",
+          "line": 35
+        },
+        {
+          "color": "violet",
+          "line": 37
+        }
+      ],
+      "functions": 9,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 0,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "14.63",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "infrastructure/store/theme-store.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/infrastructure/store/theme-store.ts",
+      "totalLines": 20,
+      "codeLines": 17,
+      "commentLines": 0,
+      "blankLines": 3,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 3,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "15.00",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "infrastructure/theme/client.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/infrastructure/theme/client.ts",
+      "totalLines": 37,
+      "codeLines": 25,
+      "commentLines": 8,
+      "blankLines": 4,
+      "jsdocBlocks": 2,
+      "jsdocLines": 8,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 2,
+      "colors": [],
+      "functions": 6,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 0,
+      "commentDensity": "24.24",
+      "codeDensity": "75.76",
+      "blankPercentage": "10.81",
+      "documentationCoverage": "33.33"
+    },
+    {
+      "path": "infrastructure/theme/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/infrastructure/theme/index.ts",
+      "totalLines": 4,
+      "codeLines": 3,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "25.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "infrastructure/theme/init-script.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/infrastructure/theme/init-script.ts",
+      "totalLines": 95,
+      "codeLines": 77,
+      "commentLines": 0,
+      "blankLines": 18,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 6,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 2,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "18.95",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "infrastructure/theme/server.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/infrastructure/theme/server.ts",
+      "totalLines": 48,
+      "codeLines": 32,
+      "commentLines": 4,
+      "blankLines": 12,
+      "jsdocBlocks": 1,
+      "jsdocLines": 4,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 1,
+      "colors": [],
+      "functions": 6,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 4,
+      "commentDensity": "11.11",
+      "codeDensity": "88.89",
+      "blankPercentage": "25.00",
+      "documentationCoverage": "16.67"
+    },
+    {
+      "path": "lib/client-theme.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/lib/client-theme.ts",
+      "totalLines": 38,
+      "codeLines": 26,
+      "commentLines": 8,
+      "blankLines": 4,
+      "jsdocBlocks": 2,
+      "jsdocLines": 8,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 2,
+      "colors": [],
+      "functions": 6,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 0,
+      "commentDensity": "23.53",
+      "codeDensity": "76.47",
+      "blankPercentage": "10.53",
+      "documentationCoverage": "33.33"
+    },
+    {
+      "path": "lib/format.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/lib/format.ts",
+      "totalLines": 3,
+      "codeLines": 1,
+      "commentLines": 1,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "50.00",
+      "codeDensity": "50.00",
+      "blankPercentage": "33.33",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "lib/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/lib/index.ts",
+      "totalLines": 6,
+      "codeLines": 4,
+      "commentLines": 1,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 4,
+      "imports": 0,
+      "commentDensity": "20.00",
+      "codeDensity": "80.00",
+      "blankPercentage": "16.67",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "lib/storage.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/lib/storage.ts",
+      "totalLines": 3,
+      "codeLines": 1,
+      "commentLines": 1,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "50.00",
+      "codeDensity": "50.00",
+      "blankPercentage": "33.33",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "lib/theme-init-script.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/lib/theme-init-script.ts",
+      "totalLines": 3,
+      "codeLines": 1,
+      "commentLines": 1,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "50.00",
+      "codeDensity": "50.00",
+      "blankPercentage": "33.33",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "lib/theme-server.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/lib/theme-server.ts",
+      "totalLines": 8,
+      "codeLines": 6,
+      "commentLines": 1,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "14.29",
+      "codeDensity": "85.71",
+      "blankPercentage": "12.50",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "lib/utils.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/lib/utils.ts",
+      "totalLines": 3,
+      "codeLines": 1,
+      "commentLines": 1,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "50.00",
+      "codeDensity": "50.00",
+      "blankPercentage": "33.33",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "lib/validation.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/lib/validation.ts",
+      "totalLines": 3,
+      "codeLines": 1,
+      "commentLines": 1,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 0,
+      "commentDensity": "50.00",
+      "codeDensity": "50.00",
+      "blankPercentage": "33.33",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "middleware.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/middleware.ts",
+      "totalLines": 43,
+      "codeLines": 34,
+      "commentLines": 0,
+      "blankLines": 9,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [
+        {
+          "color": "red",
+          "line": 8
+        },
+        {
+          "color": "rose",
+          "line": 8
+        },
+        {
+          "color": "orange",
+          "line": 8
+        },
+        {
+          "color": "green",
+          "line": 8
+        },
+        {
+          "color": "blue",
+          "line": 8
+        },
+        {
+          "color": "yellow",
+          "line": 8
+        },
+        {
+          "color": "violet",
+          "line": 9
+        },
+        {
+          "color": "indigo",
+          "line": 9
+        },
+        {
+          "color": "cyan",
+          "line": 9
+        },
+        {
+          "color": "lime",
+          "line": 9
+        },
+        {
+          "color": "fuchsia",
+          "line": 10
+        },
+        {
+          "color": "pink",
+          "line": 10
+        }
+      ],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "20.93",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "providers/app-providers.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/providers/app-providers.tsx",
+      "totalLines": 21,
+      "codeLines": 17,
+      "commentLines": 0,
+      "blankLines": 4,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "19.05",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "providers/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/providers/index.ts",
+      "totalLines": 4,
+      "codeLines": 3,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "25.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "providers/query-provider.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/providers/query-provider.tsx",
+      "totalLines": 16,
+      "codeLines": 12,
+      "commentLines": 0,
+      "blankLines": 4,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 1,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "25.00",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "providers/smooth-scroll-provider.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/providers/smooth-scroll-provider.tsx",
+      "totalLines": 216,
+      "codeLines": 174,
+      "commentLines": 0,
+      "blankLines": 42,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 15,
+      "classes": 0,
+      "interfaces": 3,
+      "types": 1,
+      "exports": 2,
+      "imports": 3,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "19.44",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "stores/background-store.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/stores/background-store.ts",
+      "totalLines": 66,
+      "codeLines": 43,
+      "commentLines": 18,
+      "blankLines": 5,
+      "jsdocBlocks": 6,
+      "jsdocLines": 18,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 6,
+      "colors": [],
+      "functions": 6,
+      "classes": 0,
+      "interfaces": 2,
+      "types": 0,
+      "exports": 2,
+      "imports": 2,
+      "commentDensity": "29.51",
+      "codeDensity": "70.49",
+      "blankPercentage": "7.58",
+      "documentationCoverage": "100.00"
+    },
+    {
+      "path": "stores/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/stores/index.ts",
+      "totalLines": 4,
+      "codeLines": 3,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "25.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "stores/secondary-sidebar-store.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/stores/secondary-sidebar-store.ts",
+      "totalLines": 29,
+      "codeLines": 14,
+      "commentLines": 12,
+      "blankLines": 3,
+      "jsdocBlocks": 4,
+      "jsdocLines": 12,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 4,
+      "colors": [],
+      "functions": 5,
+      "classes": 0,
+      "interfaces": 1,
+      "types": 0,
+      "exports": 1,
+      "imports": 2,
+      "commentDensity": "46.15",
+      "codeDensity": "53.85",
+      "blankPercentage": "10.34",
+      "documentationCoverage": "80.00"
+    },
+    {
+      "path": "stores/tool-window.test.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/stores/tool-window.test.ts",
+      "totalLines": 245,
+      "codeLines": 194,
+      "commentLines": 1,
+      "blankLines": 50,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 37,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 0,
+      "imports": 2,
+      "commentDensity": "0.51",
+      "codeDensity": "99.49",
+      "blankPercentage": "20.41",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "stores/tool-window.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/stores/tool-window.ts",
+      "totalLines": 326,
+      "codeLines": 266,
+      "commentLines": 42,
+      "blankLines": 18,
+      "jsdocBlocks": 13,
+      "jsdocLines": 42,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 13,
+      "colors": [],
+      "functions": 17,
+      "classes": 0,
+      "interfaces": 2,
+      "types": 0,
+      "exports": 2,
+      "imports": 2,
+      "commentDensity": "13.64",
+      "codeDensity": "86.36",
+      "blankPercentage": "5.52",
+      "documentationCoverage": "76.47"
+    },
+    {
+      "path": "test/setup.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/test/setup.ts",
+      "totalLines": 2,
+      "codeLines": 1,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 0,
+      "imports": 1,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "50.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "test/utils.tsx",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/test/utils.tsx",
+      "totalLines": 34,
+      "codeLines": 28,
+      "commentLines": 1,
+      "blankLines": 5,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 1,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 3,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 3,
+      "commentDensity": "3.45",
+      "codeDensity": "96.55",
+      "blankPercentage": "14.71",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "types/chart.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/types/chart.ts",
+      "totalLines": 19,
+      "codeLines": 16,
+      "commentLines": 0,
+      "blankLines": 3,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "15.79",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "types/index.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/types/index.ts",
+      "totalLines": 5,
+      "codeLines": 4,
+      "commentLines": 0,
+      "blankLines": 1,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 4,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "20.00",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "types/navigation.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/types/navigation.ts",
+      "totalLines": 23,
+      "codeLines": 19,
+      "commentLines": 0,
+      "blankLines": 4,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 0,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 3,
+      "imports": 1,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "17.39",
+      "documentationCoverage": 0
+    },
+    {
+      "path": "types/sidebar.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/types/sidebar.ts",
+      "totalLines": 25,
+      "codeLines": 22,
+      "commentLines": 0,
+      "blankLines": 3,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 6,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 6,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "12.00",
+      "documentationCoverage": "0.00"
+    },
+    {
+      "path": "types/user.ts",
+      "fullPath": "/mnt/ugh/Dev/OHHHBoiler-Doublesidebar/src/types/user.ts",
+      "totalLines": 12,
+      "codeLines": 10,
+      "commentLines": 0,
+      "blankLines": 2,
+      "jsdocBlocks": 0,
+      "jsdocLines": 0,
+      "singleLineComments": 0,
+      "multiLineCommentBlocks": 0,
+      "colors": [],
+      "functions": 1,
+      "classes": 0,
+      "interfaces": 0,
+      "types": 0,
+      "exports": 2,
+      "imports": 0,
+      "commentDensity": "0.00",
+      "codeDensity": "100.00",
+      "blankPercentage": "16.67",
+      "documentationCoverage": "0.00"
+    }
+  ]
+}

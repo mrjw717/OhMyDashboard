@@ -1,0 +1,519 @@
+{
+  "generatedAt": "2026-02-16T22:05:39.303Z",
+  "summary": {
+    "totalFiles": 11,
+    "totalColors": 34
+  },
+  "files": [
+    {
+      "path": "app/(main)/inputs/page.tsx",
+      "colorCount": 3,
+      "colors": [
+        {
+          "color": "Red",
+          "type": "Named Colors",
+          "line": 429,
+          "context": "<p className=\"text-[10px] text-[hsl(var(--text-muted))] mt-2\">Red * until valid</p>"
+        },
+        {
+          "color": "Green",
+          "type": "Named Colors",
+          "line": 436,
+          "context": "<p className=\"text-[10px] text-[hsl(var(--text-muted))] mt-2\">Green * when validated</p>"
+        },
+        {
+          "color": "Green",
+          "type": "Named Colors",
+          "line": 443,
+          "context": "<p className=\"text-[10px] text-[hsl(var(--text-muted))] mt-2\">Green ✓ when validated (not required)</p>"
+        }
+      ]
+    },
+    {
+      "path": "components/ui/scroll-blur.tsx",
+      "colorCount": 1,
+      "colors": [
+        {
+          "color": "black",
+          "type": "Named Colors",
+          "line": 51,
+          "context": "let gradient = `transparent ${p1}%, black ${p2}%`"
+        }
+      ]
+    },
+    {
+      "path": "features/command-menu/draggable-tool-window.tsx",
+      "colorCount": 2,
+      "colors": [
+        {
+          "color": "white",
+          "type": "Named Colors",
+          "line": 132,
+          "context": "\"flex items-center justify-between px-3 py-2 bg-white/5 border-b border-white/5 select-none\","
+        },
+        {
+          "color": "white",
+          "type": "Named Colors",
+          "line": 132,
+          "context": "\"flex items-center justify-between px-3 py-2 bg-white/5 border-b border-white/5 select-none\","
+        }
+      ]
+    },
+    {
+      "path": "features/tools/calculator.tsx",
+      "colorCount": 1,
+      "colors": [
+        {
+          "color": "white",
+          "type": "Named Colors",
+          "line": 119,
+          "context": "<div className=\"flex-1 w-full max-w-[320px] mx-auto bg-primary/5 rounded-xl p-4 flex flex-col gap-4 shadow-inner border border-white/5\">"
+        }
+      ]
+    },
+    {
+      "path": "features/tools/emoji/emoji-data.ts",
+      "colorCount": 7,
+      "colors": [
+        {
+          "color": "red",
+          "type": "Named Colors",
+          "line": 105,
+          "context": "{ emoji: \"😡\", name: \"Pouting Face\", category: \"Smileys & People\", keywords: [\"angry\", \"mad\", \"red\"] },"
+        },
+        {
+          "color": "Red",
+          "type": "Named Colors",
+          "line": 176,
+          "context": "{ emoji: \"❤️\", name: \"Red Heart\", category: \"Social & Popular\", keywords: [\"love\", \"heart\", \"popular\"] },"
+        },
+        {
+          "color": "yellow",
+          "type": "Named Colors",
+          "line": 244,
+          "context": "{ emoji: \"🐤\", name: \"Baby Chick\", category: \"Animals & Nature\", keywords: [\"animal\", \"bird\", \"yellow\"] },"
+        },
+        {
+          "color": "yellow",
+          "type": "Named Colors",
+          "line": 245,
+          "context": "{ emoji: \"🐥\", name: \"Front-Facing Baby Chick\", category: \"Animals & Nature\", keywords: [\"animal\", \"bird\", \"yellow\"] },"
+        },
+        {
+          "color": "Red",
+          "type": "Named Colors",
+          "line": 255,
+          "context": "{ emoji: \"🍎\", name: \"Red Apple\", category: \"Food & Drink\", keywords: [\"fruit\", \"food\", \"healthy\"] },"
+        },
+        {
+          "color": "Green",
+          "type": "Named Colors",
+          "line": 258,
+          "context": "{ emoji: \"🥗\", name: \"Green Salad\", category: \"Food & Drink\", keywords: [\"food\", \"healthy\", \"vegetable\"] },"
+        },
+        {
+          "color": "Red",
+          "type": "Named Colors",
+          "line": 280,
+          "context": "{ emoji: \"❤️\", name: \"Red Heart\", category: \"Symbols\", keywords: [\"love\", \"like\", \"passion\"] },"
+        }
+      ]
+    },
+    {
+      "path": "features/tools/lorem-ipsum.tsx",
+      "colorCount": 1,
+      "colors": [
+        {
+          "color": "white",
+          "type": "Named Colors",
+          "line": 38,
+          "context": "<div className=\"flex items-center gap-4 p-4 border-b border-primary/5 bg-white/5\">"
+        }
+      ]
+    },
+    {
+      "path": "features/tools/password-generator.tsx",
+      "colorCount": 2,
+      "colors": [
+        {
+          "color": "white",
+          "type": "Named Colors",
+          "line": 65,
+          "context": "<div className=\"space-y-6 bg-white/5 rounded-xl p-4 border border-white/5\">"
+        },
+        {
+          "color": "white",
+          "type": "Named Colors",
+          "line": 65,
+          "context": "<div className=\"space-y-6 bg-white/5 rounded-xl p-4 border border-white/5\">"
+        }
+      ]
+    },
+    {
+      "path": "features/tools/stopwatch.tsx",
+      "colorCount": 2,
+      "colors": [
+        {
+          "color": "white",
+          "type": "Named Colors",
+          "line": 86,
+          "context": "<div key={i} className=\"flex justify-between items-center py-2 px-3 border-b border-white/5 last:border-0 text-sm font-mono hover:bg-white/5 rounded\">"
+        },
+        {
+          "color": "white",
+          "type": "Named Colors",
+          "line": 86,
+          "context": "<div key={i} className=\"flex justify-between items-center py-2 px-3 border-b border-white/5 last:border-0 text-sm font-mono hover:bg-white/5 rounded\">"
+        }
+      ]
+    },
+    {
+      "path": "features/tools/unit-converter.tsx",
+      "colorCount": 2,
+      "colors": [
+        {
+          "color": "white",
+          "type": "Named Colors",
+          "line": 253,
+          "context": "<div className=\"bg-white/5 rounded-2xl border border-white/5 p-6 shadow-lg space-y-6\">"
+        },
+        {
+          "color": "white",
+          "type": "Named Colors",
+          "line": 253,
+          "context": "<div className=\"bg-white/5 rounded-2xl border border-white/5 p-6 shadow-lg space-y-6\">"
+        }
+      ]
+    },
+    {
+      "path": "features/tools/uuid-generator.tsx",
+      "colorCount": 1,
+      "colors": [
+        {
+          "color": "white",
+          "type": "Named Colors",
+          "line": 63,
+          "context": "<div className=\"w-full max-w-sm space-y-2 pt-4 border-t border-white/5\">"
+        }
+      ]
+    },
+    {
+      "path": "middleware.ts",
+      "colorCount": 12,
+      "colors": [
+        {
+          "color": "red",
+          "type": "Named Colors",
+          "line": 8,
+          "context": "'neutral', 'red', 'rose', 'orange', 'green', 'blue', 'yellow',"
+        },
+        {
+          "color": "rose",
+          "type": "Named Colors",
+          "line": 8,
+          "context": "'neutral', 'red', 'rose', 'orange', 'green', 'blue', 'yellow',"
+        },
+        {
+          "color": "orange",
+          "type": "Named Colors",
+          "line": 8,
+          "context": "'neutral', 'red', 'rose', 'orange', 'green', 'blue', 'yellow',"
+        },
+        {
+          "color": "green",
+          "type": "Named Colors",
+          "line": 8,
+          "context": "'neutral', 'red', 'rose', 'orange', 'green', 'blue', 'yellow',"
+        },
+        {
+          "color": "blue",
+          "type": "Named Colors",
+          "line": 8,
+          "context": "'neutral', 'red', 'rose', 'orange', 'green', 'blue', 'yellow',"
+        },
+        {
+          "color": "yellow",
+          "type": "Named Colors",
+          "line": 8,
+          "context": "'neutral', 'red', 'rose', 'orange', 'green', 'blue', 'yellow',"
+        },
+        {
+          "color": "violet",
+          "type": "Named Colors",
+          "line": 9,
+          "context": "'violet', 'slate', 'stone', 'indigo', 'cyan', 'lime', 'emerald',"
+        },
+        {
+          "color": "indigo",
+          "type": "Named Colors",
+          "line": 9,
+          "context": "'violet', 'slate', 'stone', 'indigo', 'cyan', 'lime', 'emerald',"
+        },
+        {
+          "color": "cyan",
+          "type": "Named Colors",
+          "line": 9,
+          "context": "'violet', 'slate', 'stone', 'indigo', 'cyan', 'lime', 'emerald',"
+        },
+        {
+          "color": "lime",
+          "type": "Named Colors",
+          "line": 9,
+          "context": "'violet', 'slate', 'stone', 'indigo', 'cyan', 'lime', 'emerald',"
+        },
+        {
+          "color": "fuchsia",
+          "type": "Named Colors",
+          "line": 10,
+          "context": "'fuchsia', 'pink'"
+        },
+        {
+          "color": "pink",
+          "type": "Named Colors",
+          "line": 10,
+          "context": "'fuchsia', 'pink'"
+        }
+      ]
+    }
+  ],
+  "allColors": [
+    {
+      "file": "app/(main)/inputs/page.tsx",
+      "color": "Red",
+      "type": "Named Colors",
+      "line": 429,
+      "context": "<p className=\"text-[10px] text-[hsl(var(--text-muted))] mt-2\">Red * until valid</p>"
+    },
+    {
+      "file": "app/(main)/inputs/page.tsx",
+      "color": "Green",
+      "type": "Named Colors",
+      "line": 436,
+      "context": "<p className=\"text-[10px] text-[hsl(var(--text-muted))] mt-2\">Green * when validated</p>"
+    },
+    {
+      "file": "app/(main)/inputs/page.tsx",
+      "color": "Green",
+      "type": "Named Colors",
+      "line": 443,
+      "context": "<p className=\"text-[10px] text-[hsl(var(--text-muted))] mt-2\">Green ✓ when validated (not required)</p>"
+    },
+    {
+      "file": "components/ui/scroll-blur.tsx",
+      "color": "black",
+      "type": "Named Colors",
+      "line": 51,
+      "context": "let gradient = `transparent ${p1}%, black ${p2}%`"
+    },
+    {
+      "file": "features/command-menu/draggable-tool-window.tsx",
+      "color": "white",
+      "type": "Named Colors",
+      "line": 132,
+      "context": "\"flex items-center justify-between px-3 py-2 bg-white/5 border-b border-white/5 select-none\","
+    },
+    {
+      "file": "features/command-menu/draggable-tool-window.tsx",
+      "color": "white",
+      "type": "Named Colors",
+      "line": 132,
+      "context": "\"flex items-center justify-between px-3 py-2 bg-white/5 border-b border-white/5 select-none\","
+    },
+    {
+      "file": "features/tools/calculator.tsx",
+      "color": "white",
+      "type": "Named Colors",
+      "line": 119,
+      "context": "<div className=\"flex-1 w-full max-w-[320px] mx-auto bg-primary/5 rounded-xl p-4 flex flex-col gap-4 shadow-inner border border-white/5\">"
+    },
+    {
+      "file": "features/tools/emoji/emoji-data.ts",
+      "color": "red",
+      "type": "Named Colors",
+      "line": 105,
+      "context": "{ emoji: \"😡\", name: \"Pouting Face\", category: \"Smileys & People\", keywords: [\"angry\", \"mad\", \"red\"] },"
+    },
+    {
+      "file": "features/tools/emoji/emoji-data.ts",
+      "color": "Red",
+      "type": "Named Colors",
+      "line": 176,
+      "context": "{ emoji: \"❤️\", name: \"Red Heart\", category: \"Social & Popular\", keywords: [\"love\", \"heart\", \"popular\"] },"
+    },
+    {
+      "file": "features/tools/emoji/emoji-data.ts",
+      "color": "yellow",
+      "type": "Named Colors",
+      "line": 244,
+      "context": "{ emoji: \"🐤\", name: \"Baby Chick\", category: \"Animals & Nature\", keywords: [\"animal\", \"bird\", \"yellow\"] },"
+    },
+    {
+      "file": "features/tools/emoji/emoji-data.ts",
+      "color": "yellow",
+      "type": "Named Colors",
+      "line": 245,
+      "context": "{ emoji: \"🐥\", name: \"Front-Facing Baby Chick\", category: \"Animals & Nature\", keywords: [\"animal\", \"bird\", \"yellow\"] },"
+    },
+    {
+      "file": "features/tools/emoji/emoji-data.ts",
+      "color": "Red",
+      "type": "Named Colors",
+      "line": 255,
+      "context": "{ emoji: \"🍎\", name: \"Red Apple\", category: \"Food & Drink\", keywords: [\"fruit\", \"food\", \"healthy\"] },"
+    },
+    {
+      "file": "features/tools/emoji/emoji-data.ts",
+      "color": "Green",
+      "type": "Named Colors",
+      "line": 258,
+      "context": "{ emoji: \"🥗\", name: \"Green Salad\", category: \"Food & Drink\", keywords: [\"food\", \"healthy\", \"vegetable\"] },"
+    },
+    {
+      "file": "features/tools/emoji/emoji-data.ts",
+      "color": "Red",
+      "type": "Named Colors",
+      "line": 280,
+      "context": "{ emoji: \"❤️\", name: \"Red Heart\", category: \"Symbols\", keywords: [\"love\", \"like\", \"passion\"] },"
+    },
+    {
+      "file": "features/tools/lorem-ipsum.tsx",
+      "color": "white",
+      "type": "Named Colors",
+      "line": 38,
+      "context": "<div className=\"flex items-center gap-4 p-4 border-b border-primary/5 bg-white/5\">"
+    },
+    {
+      "file": "features/tools/password-generator.tsx",
+      "color": "white",
+      "type": "Named Colors",
+      "line": 65,
+      "context": "<div className=\"space-y-6 bg-white/5 rounded-xl p-4 border border-white/5\">"
+    },
+    {
+      "file": "features/tools/password-generator.tsx",
+      "color": "white",
+      "type": "Named Colors",
+      "line": 65,
+      "context": "<div className=\"space-y-6 bg-white/5 rounded-xl p-4 border border-white/5\">"
+    },
+    {
+      "file": "features/tools/stopwatch.tsx",
+      "color": "white",
+      "type": "Named Colors",
+      "line": 86,
+      "context": "<div key={i} className=\"flex justify-between items-center py-2 px-3 border-b border-white/5 last:border-0 text-sm font-mono hover:bg-white/5 rounded\">"
+    },
+    {
+      "file": "features/tools/stopwatch.tsx",
+      "color": "white",
+      "type": "Named Colors",
+      "line": 86,
+      "context": "<div key={i} className=\"flex justify-between items-center py-2 px-3 border-b border-white/5 last:border-0 text-sm font-mono hover:bg-white/5 rounded\">"
+    },
+    {
+      "file": "features/tools/unit-converter.tsx",
+      "color": "white",
+      "type": "Named Colors",
+      "line": 253,
+      "context": "<div className=\"bg-white/5 rounded-2xl border border-white/5 p-6 shadow-lg space-y-6\">"
+    },
+    {
+      "file": "features/tools/unit-converter.tsx",
+      "color": "white",
+      "type": "Named Colors",
+      "line": 253,
+      "context": "<div className=\"bg-white/5 rounded-2xl border border-white/5 p-6 shadow-lg space-y-6\">"
+    },
+    {
+      "file": "features/tools/uuid-generator.tsx",
+      "color": "white",
+      "type": "Named Colors",
+      "line": 63,
+      "context": "<div className=\"w-full max-w-sm space-y-2 pt-4 border-t border-white/5\">"
+    },
+    {
+      "file": "middleware.ts",
+      "color": "red",
+      "type": "Named Colors",
+      "line": 8,
+      "context": "'neutral', 'red', 'rose', 'orange', 'green', 'blue', 'yellow',"
+    },
+    {
+      "file": "middleware.ts",
+      "color": "rose",
+      "type": "Named Colors",
+      "line": 8,
+      "context": "'neutral', 'red', 'rose', 'orange', 'green', 'blue', 'yellow',"
+    },
+    {
+      "file": "middleware.ts",
+      "color": "orange",
+      "type": "Named Colors",
+      "line": 8,
+      "context": "'neutral', 'red', 'rose', 'orange', 'green', 'blue', 'yellow',"
+    },
+    {
+      "file": "middleware.ts",
+      "color": "green",
+      "type": "Named Colors",
+      "line": 8,
+      "context": "'neutral', 'red', 'rose', 'orange', 'green', 'blue', 'yellow',"
+    },
+    {
+      "file": "middleware.ts",
+      "color": "blue",
+      "type": "Named Colors",
+      "line": 8,
+      "context": "'neutral', 'red', 'rose', 'orange', 'green', 'blue', 'yellow',"
+    },
+    {
+      "file": "middleware.ts",
+      "color": "yellow",
+      "type": "Named Colors",
+      "line": 8,
+      "context": "'neutral', 'red', 'rose', 'orange', 'green', 'blue', 'yellow',"
+    },
+    {
+      "file": "middleware.ts",
+      "color": "violet",
+      "type": "Named Colors",
+      "line": 9,
+      "context": "'violet', 'slate', 'stone', 'indigo', 'cyan', 'lime', 'emerald',"
+    },
+    {
+      "file": "middleware.ts",
+      "color": "indigo",
+      "type": "Named Colors",
+      "line": 9,
+      "context": "'violet', 'slate', 'stone', 'indigo', 'cyan', 'lime', 'emerald',"
+    },
+    {
+      "file": "middleware.ts",
+      "color": "cyan",
+      "type": "Named Colors",
+      "line": 9,
+      "context": "'violet', 'slate', 'stone', 'indigo', 'cyan', 'lime', 'emerald',"
+    },
+    {
+      "file": "middleware.ts",
+      "color": "lime",
+      "type": "Named Colors",
+      "line": 9,
+      "context": "'violet', 'slate', 'stone', 'indigo', 'cyan', 'lime', 'emerald',"
+    },
+    {
+      "file": "middleware.ts",
+      "color": "fuchsia",
+      "type": "Named Colors",
+      "line": 10,
+      "context": "'fuchsia', 'pink'"
+    },
+    {
+      "file": "middleware.ts",
+      "color": "pink",
+      "type": "Named Colors",
+      "line": 10,
+      "context": "'fuchsia', 'pink'"
+    }
+  ]
+}

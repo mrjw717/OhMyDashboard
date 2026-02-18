@@ -1,0 +1,12 @@
+/**
+ * Gradual Blur System — DOCUMENTATION ONLY
+ *
+ * IMPORTANT: The authoritative definitions for these classes live
+ * inline in src/app/globals.css. Tailwind v4 strips raw backdrop-filter
+ * from @imported CSS files.
+ *
+ * .gradual-blur       - Isolation container
+ * .gradual-blur-inner - Relative positioned inner container
+ *
+ * @see src/app/globals.css (INLINE EFFECT STYLES section)
+ */

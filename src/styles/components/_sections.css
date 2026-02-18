@@ -1,0 +1,49 @@
+/**
+ * Section/Surface Styling
+ * Primary surfaces like dashboard sections
+ */
+
+.theme-section {
+    background-color: hsl(var(--section)) !important;
+    background-image: radial-gradient(at 0% 0%, hsl(var(--primary) / 0.05) 0%, transparent 50%),
+        radial-gradient(at 100% 100%, hsl(var(--primary) / 0.03) 0%, transparent 50%) !important;
+    border: 1px solid hsl(var(--section-border)) !important;
+    border-radius: var(--radius-xl, 1rem) !important;
+    box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    position: relative;
+}
+
+.dark .theme-section {
+    background-color: hsl(var(--section)) !important;
+    background-image: radial-gradient(at 0% 0%, hsl(var(--primary) / 0.08) 0%, transparent 50%),
+        radial-gradient(at 100% 100%, hsl(var(--primary) / 0.05) 0%, transparent 50%) !important;
+    border-color: hsl(var(--section-border)) !important;
+    box-shadow: 0 4px 30px -4px rgba(0, 0, 0, 0.3);
+}
+
+.card-themed {
+    background-color: hsl(var(--section)) !important;
+    background-image: linear-gradient(to bottom right, hsl(var(--primary) / 0.02), transparent) !important;
+    border-color: hsl(var(--section-border)) !important;
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.05) !important;
+}
+
+.dark .card-themed {
+    background-color: hsl(var(--section)) !important;
+    background-image: linear-gradient(to bottom right, hsl(var(--primary) / 0.05), transparent) !important;
+    border-color: hsl(var(--section-border)) !important;
+    box-shadow: 0 8px 30px -8px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* ============================================================================
+   REDUCED MOTION - SECTION TRANSITIONS
+   ============================================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .theme-section,
+    .card-themed {
+        transition: none;
+    }
+}
