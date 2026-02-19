@@ -1,7 +1,7 @@
-# Project Overview — OHHHBoiler Enterprise Dashboard
+# Project Overview — OhMyDashboard! Enterprise Dashboard
 
 ## Project Type
-Enterprise-grade Next.js admin dashboard boilerplate with dual-sidebar layout, animated backgrounds, and modular architecture.
+Enterprise-grade Next.js admin dashboard workspace with dual-sidebar layout, animated backgrounds, and modular architecture.
 
 ## Tech Stack
 
